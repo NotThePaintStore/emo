@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+	
+  <input type="checkbox" id="cost_center" onclick="addText(this.id)" value="Cost Center Required-<br>Event will remain in tentative status until cost center number is received. If a cost center number is not received prior to noon at least one business day before your event, it will be cancelled and assessed a late cancellation fee.<br>COST CENTER RECEIVED:">
+ 	<label for="cost_center"> Cost Center Required</label><br>
+    
+	<textarea id="myInput" cols="100" rows="100" style="resize: none">As the authorized agent of the above sponsor, you agree to abide by the policies of the HUB-Robeson Center and all applicable State and University laws, policies and regulations. Any charges incurred related to this event are the responsibility of the sponsoring organization.</textarea><br>
+  <input type="button" onclick="copyToClipBoard()" value="Copy to Clipboard">
+	<input type="reset">
+</form>
+
+<script>
+  function copyToClipboard() {
+    var copyText = document.getElementById("myInput");
+    copyText.select();
+    navigator.clipboard.writeText(copyText.value);
+  }
+  function addText(x) {
+    var y = document.getElementById("myInput").value;
+    console.log("y = " + y);
+    var box = document.getElementById(x);
+    var txt = box.value;
+    console.log("box.value = " + box.value);
+    if (box.checked) {
+      console.log("the box is checked!");
+      y = y + "\n\n" + txt;
+      console.log("y is now: " + y)
+    } else {
+      console.log("the box is unchecked!");
+      //y.innerHTML = y - "\n\n" - txt;
+    }
+  }
+/*https://stackoverflow.com/questions/14444938/append-text-to-textarea-with-javascript*/
+</script>
+
+</body>
+</html>
