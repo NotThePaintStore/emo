@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <link rel="stylesheet" href="./styles.css">
+</head>
 <body>
 
 <form>
 	
-  <input type="checkbox" id="cost_center" onclick="addText(this.id)" value="Cost Center Required-<br>Event will remain in tentative status until cost center number is received. If a cost center number is not received prior to noon at least one business day before your event, it will be cancelled and assessed a late cancellation fee.<br>COST CENTER RECEIVED:">
- 	<label for="cost_center"> Cost Center Required</label><br>
+  <ul id="myList">
+    <li><input type="checkbox" class="checkbox" id="cost_center" onclick="formText(this.id)" value="Cost Center Required-
+Event will remain in tentative status until cost center number is received. If a cost center number is not received prior to noon at least one business day before your event, it will be cancelled and assessed a late cancellation fee.
+COST CENTER RECEIVED:"><label for="cost_center"> Cost Center Required</label></li>
+    <br>
+    <li><input type="checkbox" class="checkbox" id="setup" onclick="formText(this.id)" value="Setup Must be Provided-
+You must provide room setup or schedule an appointment with the HUB Event Management officeat hubevents@psu.edu or (814) 865-7973, 15 academic days prior to your event.
+SET UP COMPLETED:"><label for="setup"> Setup Required</label></li>
+    <br>
+  </ul>
+  
     
 	<textarea id="myInput" cols="100" rows="100" style="resize: none">As the authorized agent of the above sponsor, you agree to abide by the policies of the HUB-Robeson Center and all applicable State and University laws, policies and regulations. Any charges incurred related to this event are the responsibility of the sponsoring organization.</textarea><br>
   <input type="button" onclick="copyToClipBoard()" value="Copy to Clipboard">
@@ -18,22 +30,18 @@
     copyText.select();
     navigator.clipboard.writeText(copyText.value);
   }
-  function addText(x) {
-    var y = document.getElementById("myInput").value;
-    console.log("y = " + y);
-    var box = document.getElementById(x);
-    var txt = box.value;
-    console.log("box.value = " + box.value);
-    if (box.checked) {
-      console.log("the box is checked!");
-      y = y + "\n\n" + txt;
-      console.log("y is now: " + y)
-    } else {
-      console.log("the box is unchecked!");
-      //y.innerHTML = y - "\n\n" - txt;
+
+  function formText() {
+    var checkboxes = document.getElementById("myList").getElementsByClassName("checkbox");
+    var y = "As the authorized agent of the above sponsor, you agree to abide by the policies of the HUB-Robeson Center and all applicable State and University laws, policies and regulations. Any charges incurred related to this event are the responsibility of the sponsoring organization.";
+    for (let i = 0, len = checkboxes.length; i < len; i++) {
+      let x = checkboxes[i];
+      if (x.checked) {
+        y = y + "\n\n" + x.value;
+      }
     }
+    document.getElementById("myInput").innerHTML = y;
   }
-/*https://stackoverflow.com/questions/14444938/append-text-to-textarea-with-javascript*/
 </script>
 
 </body>
