@@ -5,30 +5,33 @@
 </head>
 <body>
 
-<form>
+<form id="myForm">
 	
   <ul id="myList">
-    <li><input type="checkbox" class="checkbox" id="cost_center" onclick="formText(this.id)" value="Cost Center Required-
+    <li><input type="checkbox" class="checkbox" id="cost_center" value="Cost Center Required-
 Event will remain in tentative status until cost center number is received. If a cost center number is not received prior to noon at least one business day before your event, it will be cancelled and assessed a late cancellation fee.
 COST CENTER RECEIVED:"><label for="cost_center"> Cost Center Required</label></li>
     <br>
-    <li><input type="checkbox" class="checkbox" id="setup" onclick="formText(this.id)" value="Setup Must be Provided-
-You must provide room setup or schedule an appointment with the HUB Event Management officeat hubevents@psu.edu or (814) 865-7973, 15 academic days prior to your event.
+    <li><input type="checkbox" class="checkbox" id="setup" value="Setup Must be Provided-
+You must provide room setup or schedule an appointment with the HUB Event Management office at hubevents@psu.edu or (814) 865-7973, 15 academic days prior to your event.
 SET UP COMPLETED:"><label for="setup"> Setup Required</label></li>
     <br>
   </ul>
   
-    
-	<textarea id="myInput" cols="100" rows="100" style="resize: none">As the authorized agent of the above sponsor, you agree to abide by the policies of the HUB-Robeson Center and all applicable State and University laws, policies and regulations. Any charges incurred related to this event are the responsibility of the sponsoring organization.</textarea><br>
-  <input type="button" onclick="copyToClipBoard()" value="Copy to Clipboard">
+	<textarea readonly id="myInput" cols="100" rows="40" form="myForm">As the authorized agent of the above sponsor, you agree to abide by the policies of the HUB-Robeson Center and all applicable State and University laws, policies and regulations. Any charges incurred related to this event are the responsibility of the sponsoring organization.</textarea><br>
+  <input type="button" onclick="copyToClipboard()" value="Copy to Clipboard">
 	<input type="reset">
 </form>
 
 <script>
+  for (let a in document.getElementById("myList").getElementsByClassName("checkbox")) {
+    console.log(a.id);
+    //a.addEventListener("click", formText);
+  }
+
   function copyToClipboard() {
-    var copyText = document.getElementById("myInput");
-    copyText.select();
-    navigator.clipboard.writeText(copyText.value);
+    var copyText = document.getElementById("myInput").innerHTML;
+    navigator.clipboard.writeText(copyText);
   }
 
   function formText() {
@@ -41,6 +44,10 @@ SET UP COMPLETED:"><label for="setup"> Setup Required</label></li>
       }
     }
     document.getElementById("myInput").innerHTML = y;
+  }
+
+  function reset() {
+
   }
 </script>
 
