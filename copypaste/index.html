@@ -48,7 +48,7 @@
       function(json) {
         ractive.set("boxes", json);
         ractive.render();
-        console.log(ractive.get());
+        //console.log(ractive.get());
         document.getElementById("reset").addEventListener("click", function() {
           document.getElementById("myInput").innerHTML = baseText;
         })
@@ -63,16 +63,30 @@
   function formText(sender) {
     var y = baseText;
     var list = document.getElementsByClassName("checkbox");
+    var newList = [];
     for (const i of list) {
       if (i.checked) {
-        console.log(ractive.get(`boxes.facility_comments.${i.id}.id`) + " is checked!")
-        y = y + "\n\n" + ractive.get(`boxes.facility_comments.${i.id}.text`);
+        newList.push(i);
+      }
+    } 
+    for (var c = 1; c < 11; c++) {
+      console.log("Getting priority " + c + " comments...");
+      for (var d = 0; d < newList.length; d++) {
+        var i = newList[d];
+        if (ractive.get(`boxes.facility_comments.${i.id}.priority`) == c) {
+          console.log("Found " + ractive.get(`boxes.facility_comments.${i.id}.id`));
+          y = y + "\n\n" + ractive.get(`boxes.facility_comments.${i.id}.text`);
+        }
+        if (ractive.get(`boxes.program_comments.${i.id}.priority`) == c) {
+          console.log("Found " + ractive.get(`boxes.program_comments.${i.id}.id`));
+          y = y + "\n\n" + ractive.get(`boxes.program_comments.${i.id}.text`);
+        }
+        if (ractive.get(`boxes.outdoor_comments.${i.id}.priority`) == c) {
+          console.log("Found " + ractive.get(`boxes.outdoor_comments.${i.id}.id`));
+          y = y + "\n\n" + ractive.get(`boxes.outdoor_comments.${i.id}.text`);
+        }
       }
     }
-    //for (const prop in ractive.get("boxes.facility_comments")) {
-    //  y = y + "\n\n" + ractive.get(`boxes.facility_comments.${prop}.text`);
-    //}
-    
     document.getElementById("myInput").innerHTML = y;
   }
 
