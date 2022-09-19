@@ -5,50 +5,77 @@
 </head>
 <body>
 
-<form id="myForm">
-	
-  <ul id="myList">
-    <li><input type="checkbox" class="checkbox" id="cost_center" value="Cost Center Required-
-Event will remain in tentative status until cost center number is received. If a cost center number is not received prior to noon at least one business day before your event, it will be cancelled and assessed a late cancellation fee.
-COST CENTER RECEIVED:"><label for="cost_center"> Cost Center Required</label></li>
-    <br>
-    <li><input type="checkbox" class="checkbox" id="setup" value="Setup Must be Provided-
-You must provide room setup or schedule an appointment with the HUB Event Management office at hubevents@psu.edu or (814) 865-7973, 15 academic days prior to your event.
-SET UP COMPLETED:"><label for="setup"> Setup Required</label></li>
-    <br>
-  </ul>
-  
-	<textarea readonly id="myInput" cols="100" rows="40" form="myForm">As the authorized agent of the above sponsor, you agree to abide by the policies of the HUB-Robeson Center and all applicable State and University laws, policies and regulations. Any charges incurred related to this event are the responsibility of the sponsoring organization.</textarea><br>
-  <input type="button" onclick="copyToClipboard()" value="Copy to Clipboard">
-	<input type="reset">
-</form>
+<div id="target"></div>
+<script id="template" type="text/ractive">
+  <form id="myForm">
+    <h3>Facility Comments</h3>
+    <ul id="facility_comments">
+      {{#each boxes.facility_comments: i}}
+      <li><input type="checkbox" class="checkbox" id={{id}} onClick=formText(this)><label for={{id}}>{{label}}</label>
+      {{/each}}
+    </ul>
+    <h3>Program Comments</h3>
+    <ul id="program_comments">
+      {{#each boxes.program_comments: i}}
+      <li><input type="checkbox" class="checkbox" id={{i}} onClick=formText(this)><label for={{i}}>{{label}}</label>
+      {{/each}}
+    </ul>
+    <h3>Outdoor Comments</h3>
+    <ul id="outdoor_comments">
+      {{#each boxes.outdoor_comments: i}}
+      <li><input type="checkbox" class="checkbox" id={{i}} onClick=formText(this)><label for={{i}}>{{label}}</label>
+      {{/each}}
+    </ul>
+    <textarea readonly id="myInput" cols="100" rows="40" form="myForm">As the authorized agent of the above sponsor, you agree to abide by the policies of the HUB-Robeson Center and all applicable State and University laws, policies and regulations. Any charges incurred related to this event are the responsibility of the sponsoring organization.</textarea><br>
+    <input type="button" onclick="copyToClipboard()" value="Copy to Clipboard">
+    <input type="reset" id="reset" value="Reset">
+  </form>
+</script>
 
+<script src="https://cdn.jsdelivr.net/npm/ractive"></script> 
 <script>
-  for (let a in document.getElementById("myList").getElementsByClassName("checkbox")) {
-    console.log(a.id);
-    //a.addEventListener("click", formText);
-  }
+  Ractive.DEBUG = false;
+  var ractive = new Ractive({
+    target: "#target",
+    template: "#template",
+    data: {}
+  })
+  const baseText = "As the authorized agent of the above sponsor, you agree to abide by the policies of the HUB-Robeson Center and all applicable State and University laws, policies and regulations. Any charges incurred related to this event are the responsibility of the sponsoring organization.";
+  
+  fetch('http://localhost:8080/comments.json')
+    .then((response) => response.json())
+    .then(
+      function(json) {
+        ractive.set("boxes", json);
+        ractive.render();
+        console.log(ractive.get());
+        document.getElementById("reset").addEventListener("click", function() {
+          document.getElementById("myInput").innerHTML = baseText;
+        })
+      }
+    )
 
   function copyToClipboard() {
     var copyText = document.getElementById("myInput").innerHTML;
     navigator.clipboard.writeText(copyText);
   }
 
-  function formText() {
-    var checkboxes = document.getElementById("myList").getElementsByClassName("checkbox");
-    var y = "As the authorized agent of the above sponsor, you agree to abide by the policies of the HUB-Robeson Center and all applicable State and University laws, policies and regulations. Any charges incurred related to this event are the responsibility of the sponsoring organization.";
-    for (let i = 0, len = checkboxes.length; i < len; i++) {
-      let x = checkboxes[i];
-      if (x.checked) {
-        y = y + "\n\n" + x.value;
+  function formText(sender) {
+    var y = baseText;
+    var list = document.getElementsByClassName("checkbox");
+    for (const i of list) {
+      if (i.checked) {
+        console.log(ractive.get(`boxes.facility_comments.${i.id}.id`) + " is checked!")
+        y = y + "\n\n" + ractive.get(`boxes.facility_comments.${i.id}.text`);
       }
     }
+    //for (const prop in ractive.get("boxes.facility_comments")) {
+    //  y = y + "\n\n" + ractive.get(`boxes.facility_comments.${prop}.text`);
+    //}
+    
     document.getElementById("myInput").innerHTML = y;
   }
 
-  function reset() {
-
-  }
 </script>
 
 </body>

@@ -1,0 +1,62 @@
+{
+    "facility_comments": {
+        "auditorium_food_memo": {
+            "id": "auditorium_food_memo",
+            "label": "Auditorium Food Memo",
+            "priority": 2,
+            "text": "Auditorium Food Memo -\nFood/Beverage is not permitted in the Freeman Auditorium.  The HUB reserves the right to charge additional fees for cleaning when food waste, trash, and spills are found in the Auditorium following your event."
+        },
+        "balloon_memo": {
+            "id": "balloon_memo",
+            "label": "Balloon Memo",
+            "priority": 2,
+            "text": "Balloon Memo -\nBalloons must be removed promptly by the end of your reservation, or they will be removed with charges for removal billed to your organization.  Helium balloons are not permitted in the atrium area.  This area includes HUB 131, 132 Flex Theater, 134, and Monumental Staircase."
+        },
+        "balloon_arch": {
+            "id": "balloon_arch",
+            "label": "Balloon Arch & Column Memo",
+            "priority": 2,
+            "text": "Balloon Arch and Column Memo -\nBalloon Arch resource reservations include base, extension poles and flexible arch cord.  Balloon Column resource includes base and extension poles.  Helium Balloons are not required.  An arch or column can be picked up in 125 HUB.  Failure to return all parts may result in charges."
+        },
+        "cost_center": {
+            "id": "cost_center",
+            "label": "Cost Center Required",
+            "priority": 1,
+            "text": "Cost Center Required-\nEvent will remain in tentative status until cost center number is received. If a cost center number is not received prior to noon at least one business day before your event, it will be cancelled and assessed a late cancellation fee.\nCOST CENTER RECEIVED:"
+        },
+        "setup_required": {
+            "id": "setup_required",
+            "label": "Setup Required",
+            "priority": 1,
+            "text": "Setup Must be Provided-\nYou must provide room setup or schedule an appointment with the HUB Event Management office at hubevents@psu.edu or (814) 865-7973, 15 academic days prior to your event.\nSET UP COMPLETED:"
+        },
+        "facility_memo": {
+            "id": "facility_memo",
+            "label": "Facility Memo",
+            "priority": 3,
+            "text": "Facility Memo -\n- Setup and Takedown time are for HUB-Robeson Center staff only.\n- Decorations, signs, and other materials must not be attached to the walls, windows, floors, doors, painted or papered surfaces of the building. See a venue representative about alternative options.\n- Customers are not permitted to move furniture.\n- Use of candles or any type of open flame is not permitted.\n- Storage space is not available.\n- The HUB-Robeson Center will not be responsible for any materials or equipment left in the building overnight, during breaks or after events.\n- The HUB-Robeson Center also reserves the right to move an event to accommodate the needs of the facility and Penn State Community.\n- Violation of any facility policies may result in additional charges."
+        },
+        "cancellation_rso_meeting": {
+            "id": "cancellation_rso_meeting",
+            "label": "Cancellation Policy (RSO) - Meeting Space",
+            "priority": 9,
+            "text": "Cancellation Policy (RSO) -\nMeeting Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 48 hours before the meeting, or by noon on Friday for a weekend event via email to hubevents@psu.edu.  Failure to cancel 3 meetings during a semester may result in the loss of future reservation privileges and/or referral to SOCC."
+        }
+    },
+    "program_comments": {
+        "program_reg": {
+            "id": "program_reg",
+            "label": "Program Registration",
+            "priority": 1,
+            "text": "Program Registration Meeting Required -\nA program registration meeting is required. Go to bit.ly/schedPR-C to schedule a program registration meeting. Please add the 25Live reference number in the notes section of the appointment request.\nPROGRAM REGISTRATION MEETING HELD:"
+        }
+    },
+    "outdoor_comments": {
+        "outdoor_spaces": {
+            "id": "outdoor_spaces",
+            "label": "Outdoor Spaces",
+            "priority": 3,
+            "text": "OUTDOOR SPACES\n1. Use of amplified sound in outdoor locations is prohibited 8:00 AM to 5:00 PM on weekdays, and before noontime on weekends.  Amplified sound is permitted Monday thru Friday from 12:00 Noon to 1:00 PM on Old Main Patio only.\n2. Groups using Outdoor areas will need to provide their own table and chairs. The HUB does not provide furniture or equipment for use in outdoor locations.\n3. Placing or erecting structures of any size or material is prohibited.  This includes overhead canopies.\n4. Creation of safety hazards is prohibited.\n5. Hand held signs are permitted, but signs may not be placed on or affixed in any manner to University grounds and property, including but not limited to buildings, poles, gates, fences, trees, or other vegetation.\n6. Pedestrian or vehicular traffic must not be impeded in any fashion.\n7. Disturbance of, or interference with classrooms, offices, study facilities, libraries, or other University facilities & activities is prohibited.\n8. Flashing or rotating lights and illuminated signs may not be used.\n9. Papers, pamphlets, and similar materials must be distributed in person by the sponsoring organization.\n10. Tables must be staffed by the sponsoring organization and or group.\n11. Damage or destruction of property is prohibited. Should damages, destruction or clean up charges occur, the organization, department or individual who reserved the space will be responsible for any and all charges.\n\nReservations are weather dependent and may be re-scheduled or cancelled at the discretion of the HUB-Robeson Center staff.\n\nIf reserved location is listed under Penn State Policy AD51 additional guidelines apply. Please see attachment or visit https://policy.psu.edu/policies/ad51"
+        }
+    }
+}
