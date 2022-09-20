@@ -3,19 +3,19 @@
         "auditorium_food_memo": {
             "id": "auditorium_food_memo",
             "label": "Auditorium Food Memo",
-            "priority": 2,
+            "priority": 5,
             "text": "Auditorium Food Memo -\nFood/Beverage is not permitted in the Freeman Auditorium.  The HUB reserves the right to charge additional fees for cleaning when food waste, trash, and spills are found in the Auditorium following your event."
         },
         "balloon_memo": {
             "id": "balloon_memo",
             "label": "Balloon Memo",
-            "priority": 2,
+            "priority": 5,
             "text": "Balloon Memo -\nBalloons must be removed promptly by the end of your reservation, or they will be removed with charges for removal billed to your organization.  Helium balloons are not permitted in the atrium area.  This area includes HUB 131, 132 Flex Theater, 134, and Monumental Staircase."
         },
         "balloon_arch": {
             "id": "balloon_arch",
             "label": "Balloon Arch & Column Memo",
-            "priority": 2,
+            "priority": 5,
             "text": "Balloon Arch and Column Memo -\nBalloon Arch resource reservations include base, extension poles and flexible arch cord.  Balloon Column resource includes base and extension poles.  Helium Balloons are not required.  An arch or column can be picked up in 125 HUB.  Failure to return all parts may result in charges."
         },
         "cost_center": {
@@ -41,6 +41,90 @@
             "label": "Cancellation Policy (RSO) - Meeting Space",
             "priority": 9,
             "text": "Cancellation Policy (RSO) -\nMeeting Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 48 hours before the meeting, or by noon on Friday for a weekend event via email to hubevents@psu.edu.  Failure to cancel 3 meetings during a semester may result in the loss of future reservation privileges and/or referral to SOCC."
+        },
+        "cancellation_rso_event": {
+            "id": "cancellation_rso_event",
+            "label": "Cancellation Policy (RSO) - Event Space",
+            "priority": 9,
+            "text": "Cancellation Policy (RSO) -\nEvent Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 10 academic days before the event via email to hubevents@psu.edu.  Failure to cancel the event by this deadline will result in a $75 late cancellation fee.   Failure to cancel 3 events during the academic year may result in the loss of future reservation privileges and/or referral to SOCC."
+        },
+        "cancellation_ud_meeting": {
+            "id": "cancellation_ud_meeting",
+            "label": "Cancellation Policy (UD) - Meeting Space",
+            "priority": 9,
+            "text": "Cancellation Policy (UD) -\nMeeting Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 48 hours before the meeting, or by noon on Friday for a weekend event via email to hubevents@psu.edu.  Failure to cancel 3 meetings during a semester may result in the loss of future reservation privileges."
+        },
+        "cancellation_ud_event": {
+            "id": "cancellation_ud_event",
+            "label": "Cancellation Policy (UD) - Event Space",
+            "priority": 9,
+            "text": "Cancellation Policy (UD) -\nEvent Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 10 academic days before the event via email to hubevents@psu.edu.  Failure to cancel the event by this deadline will result in a $75 late cancellation fee.   Failure to cancel 3 events during the academic year may result in the loss of future reservation privileges."
+        },
+        "osmond_banner": {
+            "id": "osmond_banner",
+            "label": "Osmond Banner (Dept.)",
+            "priority": 5,
+            "text": "Osmond Banner (Department) -\nIn order to complete reservation, you must submit an OPP Work order to have the banner hung, All Osmond Banners must be hung by PSU Office of Physical Plant only.  Use your departmental Standing Order Number for OPP charges, and use the corresponding dates of your reservation. Banner must be delivered to the Event Management Office, 125 HUB, by 4pm on the Thursday prior to the Monday reservation start date.  You must present a copy of your completed OPP work order when you deliver the banner, or the banner will not be accepted.  Banner must be picked up at the same location on the Monday immediately following the reservation end date.  Banner must prominently display the name of the sponsor, and must be made according to specifications at www.sa.psu.edu/usa/eventsmgmt/banners.shtml or it will not be hung."
+        },
+        "display_case": {
+            "id": "display_case",
+            "label": "Display Case Memo",
+            "priority": 5,
+            "text": "Display Case Memo -\nYour reservation begins at 10:00am Monday. If the case is empty prior to 10, your display may be placed earlier. Your reservation ends at 9:00am the following Monday.  Please remove your display by 9:00am so the next scheduled user may place theirs. If your display is not removed by 9:00am, it may be removed."
+        },
+        "flex_theater": {
+            "id": "flex_theater",
+            "label": "Flex Theater",
+            "priority": 5,
+            "text": "Flex Theater -\nFully Produced (sound, stage, and lighting) events are available.  Setup for this option must be provided at a minimum of 14 days prior to your event.  Contact the Event Management Office in 125 HUB or hubevents@psu.edu to provide setup or arrange event production.\n*Outside sound/lighting systems are not permitted."
+        },
+        "food_waiver": {
+            "id": "food_waiver",
+            "label": "Food Waiver Required",
+            "priority": 1,
+            "text": "Food Waiver Required -\nPer University Policy AD26, where food is being served, a Food Waiver Form must be submitted for approval.  Forms should be submitted 15 days prior to the first date of your event.  If you have not received the form from Housing and Food Services, please contact AD26@psu.edu for the form, or any questions you may have.  Your event will not be confirmed until the HUB-Robeson Center has received an approved Food Waiver or an email to HUBevents@psu.edu indicating that you no longer wish to serve food, has been received.\nFOOD WAIVER APPROVED:"
+        },
+        "hub_banner": {
+            "id": "hub_banner",
+            "label": "HUB Banner Memo",
+            "priority": 5,
+            "text": "HUB Banner Memo -\nBanner must be delivered to the Event Management Office by 4:00pm Friday prior to the start of your reservation and can be picked up at the same location the following Monday. Banner must prominently display the name of the sponsor, cannot exceed 3 ft by 10 ft, and must have grommets in the corners and every 36” on the top and bottom. Banner specifications can be found here: https://studentaffairs.psu.edu/involvement-student-life/student-services/hub-marketing-office/large-format-printing-posters"
+        },
+        "hub_lounges": {
+            "id": "hub_lounges",
+            "label": "HUB Lounges",
+            "priority": 5,
+            "text": "HUB Lounges -\nAn additional fee will be charged to all reservations using HUB public lounges when the event setup requires significant re-arrangement, or removal of lounge furniture. Please note:  HUB Lounges are public areas.  They are not appropriate for private events, or events that require a quiet environment."
+        },
+        "info_table": {
+            "id": "info_table",
+            "label": "Info Table",
+            "priority": 5,
+            "text": "Information Table Usage Guidelines -\n- Only 2 chairs are provided to each table. Do not remove chairs from the dining tables to supplement seating. Sitting or standing on tables are prohibited.\n- No posters or banners are permitted to be hung on walls or columns. A banner or sign may be placed on the front of the table as long as it does not exceed the width of the table\n- Due to the amount of pedestrian traffic, persons must stay behind assigned table.\n- If sound of any kind is necessary, volume must be kept to a speaking level and cannot distract others around you, i.e. other tables and customers in the building.\n- When collecting funds, a cash box can be picked up from Associated Student Activities all cash must be deposited daily in the organization’s ASA account in 240 HUB.\n- State Law prohibits the sale of raffle tickets unless the organization purchases a \"Small Games of Chance\" permit issued by the State.\n- Tables cannot be reserved by one organization and then used by another. When tables are in use there must always be full-time student member(s) of that organization there."
+        },
+        "monumental_stairs": {
+            "id": "monumental_stairs",
+            "label": "Monumental Staircase",
+            "priority": 5,
+            "text": "Monumental Staircase -\nThe HUB-Robeson Center does not allow helium balloons to be used in this area. Amplified sound is also restricted to a level determined and enforced by HUB-Robeson Center staff. Please refer to our website or contact the HUB-Event Management office (125 HUB) for the complete policy for use of Monumental Stairs."
+        },
+        "": {
+            "id": "",
+            "label": "",
+            "priority": "",
+            "text": ""
+        },
+        "": {
+            "id": "",
+            "label": "",
+            "priority": "",
+            "text": ""
+        },
+        "": {
+            "id": "",
+            "label": "",
+            "priority": "",
+            "text": ""
         }
     },
     "program_comments": {
@@ -49,6 +133,42 @@
             "label": "Program Registration",
             "priority": 1,
             "text": "Program Registration Meeting Required -\nA program registration meeting is required. Go to bit.ly/schedPR-C to schedule a program registration meeting. Please add the 25Live reference number in the notes section of the appointment request.\nPROGRAM REGISTRATION MEETING HELD:"
+        },
+        "": {
+            "id": "",
+            "label": "",
+            "priority": "",
+            "text": ""
+        },
+        "": {
+            "id": "",
+            "label": "",
+            "priority": "",
+            "text": ""
+        },
+        "": {
+            "id": "",
+            "label": "",
+            "priority": "",
+            "text": ""
+        },
+        "": {
+            "id": "",
+            "label": "",
+            "priority": "",
+            "text": ""
+        },
+        "": {
+            "id": "",
+            "label": "",
+            "priority": "",
+            "text": ""
+        },
+        "": {
+            "id": "",
+            "label": "",
+            "priority": "",
+            "text": ""
         }
     },
     "outdoor_comments": {

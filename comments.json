@@ -5,76 +5,6 @@
     "text": ""
 }
 
-[
-    {
-        "facility_comments": [
-            {
-                "id": "auditorium_food_memo",
-                "label": "Auditorium Food Memo",
-                "priority": "",
-                "text": "Auditorium Food Memo -\nFood/Beverage is not permitted in the Freeman Auditorium.  The HUB reserves the right to charge additional fees for cleaning when food waste, trash, and spills are found in the Auditorium following your event."
-            },
-            {
-                "id": "balloon_memo",
-                "label": "Balloon Memo",
-                "priority": "",
-                "text": "Balloon Memo -\nBalloons must be removed promptly by the end of your reservation, or they will be removed with charges for removal billed to your organization.  Helium balloons are not permitted in the atrium area.  This area includes HUB 131, 132 Flex Theater, 134, and Monumental Staircase."
-            },
-            {
-                "id": "balloon_arch",
-                "label": "Balloon Arch & Column Memo",
-                "priority": "",
-                "text": "Balloon Arch and Column Memo -\nBalloon Arch resource reservations include base, extension poles and flexible arch cord.  Balloon Column resource includes base and extension poles.  Helium Balloons are not required.  An arch or column can be picked up in 125 HUB.  Failure to return all parts may result in charges."
-            },
-            {
-                "id": "cost_center",
-                "label": "Cost Center Required",
-                "priority": 1,
-                "text": "Cost Center Required-\nEvent will remain in tentative status until cost center number is received. If a cost center number is not received prior to noon at least one business day before your event, it will be cancelled and assessed a late cancellation fee.\nCOST CENTER RECEIVED:"
-            },
-            {
-                "id": "setup_required",
-                "label": "Setup Required",
-                "priority": 1,
-                "text": "Setup Must be Provided-\nYou must provide room setup or schedule an appointment with the HUB Event Management office at hubevents@psu.edu or (814) 865-7973, 15 academic days prior to your event.\nSET UP COMPLETED:"
-            },
-            {
-                "id": "facility_memo",
-                "label": "Facility Memo",
-                "priority": "",
-                "text": "Facility Memo -\n- Setup and Takedown time are for HUB-Robeson Center staff only.\n- Decorations, signs, and other materials must not be attached to the walls, windows, floors, doors, painted or papered surfaces of the building. See a venue representative about alternative options.\n- Customers are not permitted to move furniture.\n- Use of candles or any type of open flame is not permitted.\n- Storage space is not available.\n- The HUB-Robeson Center will not be responsible for any materials or equipment left in the building overnight, during breaks or after events.\n- The HUB-Robeson Center also reserves the right to move an event to accommodate the needs of the facility and Penn State Community.\n- Violation of any facility policies may result in additional charges."
-            },
-            {
-                "id": "cancellation_rso_meeting",
-                "label": "Cancellation Policy (RSO) - Meeting Space",
-                "priority": "",
-                "text": "Cancellation Policy (RSO) -\nMeeting Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 48 hours before the meeting, or by noon on Friday for a weekend event via email to hubevents@psu.edu.  Failure to cancel 3 meetings during a semester may result in the loss of future reservation privileges and/or referral to SOCC."
-            },
-            {
-                "id": "",
-                "label": "",
-                "priority": "",
-                "text": ""
-            }
-        ],
-        "program_comments": [
-            {
-                "id": "program_reg",
-                "label": "Program Registration",
-                "priority": "",
-                "text": "Program Registration Meeting Required -\nA program registration meeting is required. Go to bit.ly/schedPR-C to schedule a program registration meeting. Please add the 25Live reference number in the notes section of the appointment request.\nPROGRAM REGISTRATION MEETING HELD:"
-            }
-        ],
-        "outdoor_comments": [
-            {
-                "id": "",
-                "label": "",
-                "priority": "",
-                "text": "OUTDOOR SPACES\n1. Use of amplified sound in outdoor locations is prohibited 8:00 AM to 5:00 PM on weekdays, and before noontime on weekends.  Amplified sound is permitted Monday thru Friday from 12:00 Noon to 1:00 PM on Old Main Patio only.\n2. Groups using Outdoor areas will need to provide their own table and chairs. The HUB does not provide furniture or equipment for use in outdoor locations.\n3. Placing or erecting structures of any size or material is prohibited.  This includes overhead canopies.\n4. Creation of safety hazards is prohibited.\n5. Hand held signs are permitted, but signs may not be placed on or affixed in any manner to University grounds and property, including but not limited to buildings, poles, gates, fences, trees, or other vegetation.\n6. Pedestrian or vehicular traffic must not be impeded in any fashion.\n7. Disturbance of, or interference with classrooms, offices, study facilities, libraries, or other University facilities & activities is prohibited.\n8. Flashing or rotating lights and illuminated signs may not be used.\n9. Papers, pamphlets, and similar materials must be distributed in person by the sponsoring organization.\n10. Tables must be staffed by the sponsoring organization and or group.\n11. Damage or destruction of property is prohibited. Should damages, destruction or clean up charges occur, the organization, department or individual who reserved the space will be responsible for any and all charges.\n\nReservations are weather dependent and may be re-scheduled or cancelled at the discretion of the HUB-Robeson Center staff.\n\nIf reserved location is listed under Penn State Policy AD51 additional guidelines apply. Please see attachment or visit https://policy.psu.edu/policies/ad51"
-            }
-        ]
-    }
-]
 
 
 
@@ -82,93 +12,27 @@
 
 
 
-Cancellation Policy (RSO) -
-Event Space
-The Event Management Office must be notified of any room cancellation of confirmed reservations no later than 10 academic days before the event via email to hubevents@psu.edu.  Failure to cancel the event by this deadline will result in a $75 late cancellation fee.   Failure to cancel 3 events during the academic year may result in the loss of future reservation privileges and/or referral to SOCC.
-
-
-Cancellation Policy (UD) -
-Meeting Space
-The Event Management Office must be notified of any room cancellation of confirmed reservations no later than 48 hours before the meeting, or by noon on Friday for a weekend event via email to hubevents@psu.edu.  Failure to cancel 3 meetings during a semester may result in the loss of future reservation privileges.
-
-
-Cancellation Policy (UD) -
-Event Space
-The Event Management Office must be notified of any room cancellation of confirmed reservations no later than 10 academic days before the event via email to hubevents@psu.edu.  Failure to cancel the event by this deadline will result in a $75 late cancellation fee.   Failure to cancel 3 events during the academic year may result in the loss of future reservation privileges.
 
 
 
 
-Osmond Banner (Department) – 
-In order to complete reservation, you must submit an OPP Work order to have the banner hung, All Osmond Banners must be hung by PSU Office of Physical Plant only.  Use your departmental Standing Order Number for OPP charges, and use the corresponding dates of your reservation.  See sample work order below.  Banner must be delivered to the Event Management Office, 125 HUB, by 4pm on the Thursday prior to the Monday reservation start date.  You must present a copy of your completed OPP work order when you deliver the banner, or the banner will not be accepted.  Banner must be picked up at the same location on the Monday immediately following the reservation end date.  Banner must prominently display the name of the sponsor, and must be made according to specifications at www.sa.psu.edu/usa/eventsmgmt/banners.shtml or it will not be hung.
-
-Collected Information
-Reported By        ABC123
-Contact Name        CUSTOMER NAME
-Contact Phone        CUSTOMER PHONE NUMBER
-Contact Email        ABC123@PSU.EDU
-Location        BLDG CODE
-Location Description        BLDG DESCRIPTION
-Customer Billing Number        1234
-Customer Billing Number Description        CUSTOMER BILLING DESCRIPTION
-Category        Work Request - All Other
-Work Type        CM
-Work Type Description        Corrective Maintenance
-Work Request Summary        Osmond Banner #(1 OR 2 DEPENDING ON RESERVATION)
-Work Request Description        Please hang banner on the wrought iron railings over the main entryway into Osmond Lobby from Monday XX/YY to Monday XX/YY.  Banner can be picked up from and returned to the HUB, 125D.  (TYPE CUSTOMER BILLING NUMBER AGAIN) - Standing Order #1234
-Required by specific date?        Yes
-Is this a repeat or ongoing problem?        N
-Start No Later Than        XX/YY/ZZ 4:28 PM
-Finish No Later Than        XX/YY/ZZ 4:28 PM
-Justification        Banner reserved through HUB
 
 
 
-Display Case Memo -
-Your reservation begins at 10:00am Monday. If the case is empty prior to 10, your display may be placed earlier. Your reservation ends at 9:00am the following Monday.  Please remove your display by 9:00am so the next scheduled user may place theirs. If your display is not removed by 9:00am, it may be removed.
 
 
 
-Flex Theater  –  
-Fully Produced (sound, stage, and lighting) events are available.  Setup for this option must be provided at a minimum of 14 days prior to your event.  Contact the Event Management Office in 125 HUB or hubevents@psu.edu to provide setup or arrange event production.
-*Outside sound/lighting systems are not permitted.
-
-
-Food Waiver Required – 
-Per University Policy AD26, where food is being served, a Food Waiver Form must be submitted for approval.  Forms should be submitted 15 days prior to the first date of your event.  If you have not received the form from Housing and Food Services, please contact AD26@psu.edu for the form, or any questions you may have.  Your event will not be confirmed until the HUB-Robeson Center has received an approved Food Waiver or an email to HUBevents@psu.edu indicating that you no longer wish to serve food, has been received.  
-FOOD WAIVER APPROVED:
-
-
-HUB Banner Memo -
-Banner must be delivered to the Event Management Office by 4:00pm Friday prior to the start of your reservation and can be picked up at the same location the following Monday. Banner must prominently display the name of the sponsor, cannot exceed 3 ft by 10 ft, and must have grommets in the corners and every 36” on the top and bottom. Banner specifications can be found here: https://studentaffairs.psu.edu/involvement-student-life/student-services/hub-marketing-office/large-format-printing-posters
-
-
-HUB Lounges -
-An additional fee will be charged to all reservations using HUB public lounges when the event setup requires significant re-arrangement, or removal of lounge furniture. Please note:  HUB Lounges are public areas.  They are not appropriate for private events, or events that require a quiet environment.  
 
 
 
-Information Table Usage Guidelines -
-- Only 2 chairs are provided to each table. Do not remove chairs from the dining tables to supplement seating. Sitting or standing on tables are prohibited.
-- No posters or banners are permitted to be hung on walls or columns. A banner or sign may be placed on the front of the table as long as it does not exceed the width of the table 
-- Due to the amount of pedestrian traffic, persons must stay behind assigned table.
-- If sound of any kind is necessary, volume must be kept to a speaking level and cannot distract others around you, i.e. other tables and customers in the building.
-- When collecting funds, a cash box can be picked up from Associated Student Activities all cash must be deposited daily in the organization’s ASA account in 240 HUB.
-- State Law prohibits the sale of raffle tickets unless the organization purchases a "Small Games of Chance" permit issued by the State.
-- Tables cannot be reserved by one organization and then used by another. When tables are in use there must always be full-time student member(s) of that organization there. 
 
 
 
-Monumental Staircase –
-The HUB-Robeson Center does not allow helium balloons to be used in this area. Amplified sound is also restricted to a level determined and enforced by HUB-Robeson Center staff. Please refer to our website or contact the HUB-Event Management office (125 HUB) for the complete policy for use of Monumental Stairs.
 
 
 
-Poster Spot
--Promotional signage may only be permitted five (5) business days before the event. A ticket sale start date can be considered an event. 
--A group will not be permitted to make consecutive reservations within five (5) business days of the previous reservation. A reservation may have up to 2 poster spots.
--Material must be provided to the HUB Event Management Office, room 125, two (2) business days prior to the start of the signage reservation. The HUB-Robeson Center staff will display the sign in an appropriate location. The HUB-Robeson Center does not print the posters.
--Size of sign must be 24”x36” portrait/vertical orientation. The HUB-Robeson Center reserves the right to deny a sign based on a number of factors including quality, size or explicit content.
+
+Poster Spot\n-Promotional signage may only be permitted five (5) business days before the event. A ticket sale start date can be considered an event.\n-A group will not be permitted to make consecutive reservations within five (5) business days of the previous reservation. A reservation may have up to 2 poster spots.\n-Material must be provided to the HUB Event Management Office, room 125, two (2) business days prior to the start of the signage reservation. The HUB-Robeson Center staff will display the sign in an appropriate location. The HUB-Robeson Center does not print the posters.\n-Size of sign must be 24”x36” portrait/vertical orientation. The HUB-Robeson Center reserves the right to deny a sign based on a number of factors including quality, size or explicit content.
 -Sponsoring Organization must be prominently displayed on sign.
 
 
