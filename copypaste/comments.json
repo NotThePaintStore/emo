@@ -280,12 +280,6 @@
             "priority": 1,
             "text": "OPP Work Order (Outdoor Event) -\nhttps://pennstate.qualtrics.com/jfe/form/SV_cSF54HnBsTwcDVr\n\nComplete and submit your Work Order at least 10 academic days prior to your event.  Work Orders submitted less than 5 academic days prior to your event will not be guaranteed for approval.\nThere will be a charge for these services. You must cancel your OPP work order no later than 4 academic days prior to your event to avoid any charges.\nOPP WORK ORDER SUBMITTED:"
         },
-        "allen_st_activity_area": {
-            "id": "allen_st_activity_area",
-            "label": "Allen Street Activity Area",
-            "priority": 5,
-            "text": "Allen Street Activity Area -\nPlease see attached diagram of the Allen Street Activity Area.  All furnishings and activities associated with your reservation of the Allen Street Gate must be kept within the Activity Area.  The 4' wide sidewalk between the gate and the Activity Area must remain open at all times for safe wheelchair passage on College Avenue.  This is a requirement of the Americans with Disabilities Act."
-        },
         "5k": {
             "id": "5k",
             "label": "5K",
