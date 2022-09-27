@@ -28,7 +28,7 @@
             "id": "setup_required",
             "label": "Setup Required",
             "priority": 1,
-            "text": "Setup Must be Provided-\nYou must provide room setup or schedule an appointment with the HUB Event Management office at https://forms.microsoft.com/r/175iq2LgrT, 15 academic days prior to your event.\nSET UP COMPLETED:"
+            "text": "Setup Must be Provided -\nYou must provide room setup or schedule an appointment with the HUB Event Management office at https://forms.microsoft.com/r/175iq2LgrT, 15 academic days prior to your event.\nSET UP COMPLETED:"
         },
         "facility_memo": {
             "id": "facility_memo",
