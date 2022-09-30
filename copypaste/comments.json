@@ -4,7 +4,7 @@
             "id": "auditorium_food_memo",
             "label": "Auditorium Food Memo",
             "priority": 5,
-            "text": "Auditorium Food Memo -\nFood/Beverage is not permitted in the Freeman Auditorium.  The HUB reserves the right to charge additional fees for cleaning when food waste, trash, and spills are found in the Auditorium following your event."
+            "text": "Freeman Auditorium and Flex Theater Food Memo -\nFood/Beverage is not permitted in the Freeman Auditorium, or when the stadium seating is being used in Flex Theater. The HUB reserves the right to charge additional fees for cleaning when food waste, trash, and spills are found following your event."
         },
         "balloon_memo": {
             "id": "balloon_memo",
@@ -28,7 +28,11 @@
             "id": "setup_required",
             "label": "Setup Required",
             "priority": 1,
+<<<<<<< HEAD
             "text": "Setup Must be Provided-\nYou must provide room setup or schedule an appointment with the HUB Event Management office at https://forms.microsoft.com/r/175iq2LgrT, 15 academic days prior to your event.\nDATE COMPLETED:"
+=======
+            "text": "Setup Must be Provided -\nYou must provide room setup or schedule an appointment with the HUB Event Management office at https://forms.microsoft.com/r/175iq2LgrT, 15 academic days prior to your event.\nSET UP COMPLETED:"
+>>>>>>> 8f4ca37834ca0af8679ff24f1797d6445cbf7bec
         },
         "facility_memo": {
             "id": "facility_memo",
