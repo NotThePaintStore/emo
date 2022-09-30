@@ -28,7 +28,7 @@
             "id": "setup_required",
             "label": "Setup Required",
             "priority": 1,
-            "text": "Setup Must be Provided-\nYou must provide room setup or schedule an appointment with the HUB Event Management office at https://forms.microsoft.com/r/175iq2LgrT, 15 academic days prior to your event.\nSET UP COMPLETED:"
+            "text": "Setup Must be Provided-\nYou must provide room setup or schedule an appointment with the HUB Event Management office at https://forms.microsoft.com/r/175iq2LgrT, 15 academic days prior to your event.\nDATE COMPLETED:"
         },
         "facility_memo": {
             "id": "facility_memo",
@@ -72,17 +72,17 @@
             "priority": 5,
             "text": "Display Case Memo -\nYour reservation begins at 10:00am Monday. If the case is empty prior to 10, your display may be placed earlier. Your reservation ends at 9:00am the following Monday.  Please remove your display by 9:00am so the next scheduled user may place theirs. If your display is not removed by 9:00am, it may be removed."
         },
-        "flex_theater": {
-            "id": "flex_theater",
-            "label": "Flex Theater",
+        "flex_prod": {
+            "id": "flex_prod",
+            "label": "Flex Production",
             "priority": 5,
-            "text": "Flex Theater -\nFully Produced (sound, stage, and lighting) events are available.  Setup for this option must be provided at a minimum of 14 days prior to your event.  Contact the Event Management Office in 125 HUB or hubevents@psu.edu to provide setup or arrange event production.\n*Outside sound/lighting systems are not permitted."
+            "text": "Flex Theater -\nFully Produced (sound, stage, and lighting) events are available. Setup for this option must be provided at a minimum of 14 days prior to your event. Contact the Event Management Office in 125 HUB at https://forms.microsoft.com/r/175iq2LgrT to provide setup or arrange event production.\n*Outside sound/lighting systems are not permitted."
         },
         "food_waiver": {
             "id": "food_waiver",
             "label": "Food Waiver Required",
             "priority": 2,
-            "text": "Food Waiver Required -\nPer University Policy AD26, where food is being served, a Food Waiver Form must be submitted for approval.  Forms should be submitted 15 days prior to the first date of your event.  If you have not received the form from Housing and Food Services, please contact AD26@psu.edu for the form, or any questions you may have.  Your event will not be confirmed until the HUB-Robeson Center has received an approved Food Waiver or an email to HUBevents@psu.edu indicating that you no longer wish to serve food, has been received.\nFOOD WAIVER APPROVED:"
+            "text": "Food Waiver Required -\nPer University Policy AD26, where food is being served, a Food Waiver Form must be submitted for approval.  Forms should be submitted 15 days prior to the first date of your event.  If you have not received the form from Housing and Food Services, please contact AD26@psu.edu for the form, or any questions you may have.  Your event will not be confirmed until the HUB-Robeson Center has received an approved Food Waiver or an email to HUBevents@psu.edu indicating that you no longer wish to serve food, has been received.\nDATE APPROVED:"
         },
         "hub_banner": {
             "id": "hub_banner",
@@ -258,7 +258,7 @@
             "id": "university_waivers",
             "label": "University Waivers Required",
             "priority": 7,
-            "text": "University Waivers Required -\nUniversity waivers are required for this event and will be attached to your reservation upon completion of your program registration meeting. Additional copies are the responsibility of the sponsoring organization. Signed waivers must be returned to 125 HUB the next business day following the event.\nUNIVERSITY WAIVERS ISSUED:\nUNIVERSITY WAIVERS COMPLETED:"
+            "text": "University Waivers Required -\nUniversity waivers are required for this event and will be attached to your reservation upon completion of your program registration meeting. Additional copies are the responsibility of the sponsoring organization. Signed waivers must be returned to 125 HUB the next business day following the event.\nDATE WAIVERS ISSUED:\nDATE WAIVERS COMPLETED:"
         },
         "virtual_guidelines": {
             "id": "virtual_guidelines",
@@ -278,7 +278,7 @@
             "id": "opp_work_order",
             "label": "OPP Work Order",
             "priority": 1,
-            "text": "OPP Work Order (Outdoor Event) -\nhttps://pennstate.qualtrics.com/jfe/form/SV_cSF54HnBsTwcDVr\n\nComplete and submit your Work Order at least 10 academic days prior to your event.  Work Orders submitted less than 5 academic days prior to your event will not be guaranteed for approval.\nThere will be a charge for these services. You must cancel your OPP work order no later than 4 academic days prior to your event to avoid any charges.\nOPP WORK ORDER SUBMITTED:"
+            "text": "OPP Work Order (Outdoor Event) -\nhttps://pennstate.qualtrics.com/jfe/form/SV_cSF54HnBsTwcDVr\n\nComplete and submit your Work Order at least 10 academic days prior to your event.  Work Orders submitted less than 5 academic days prior to your event will not be guaranteed for approval.\nThere will be a charge for these services. You must cancel your OPP work order no later than 4 academic days prior to your event to avoid any charges.\nDATE SUBMITTED:"
         },
         "5k": {
             "id": "5k",
