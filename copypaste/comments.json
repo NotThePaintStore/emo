@@ -22,13 +22,13 @@
             "id": "cost_center",
             "label": "Cost Center Required",
             "priority": 1,
-            "text": "Cost Center Required-\nEvent will remain in tentative status until cost center number is received. If a cost center number is not received prior to noon at least one business day before your event, it will be cancelled and assessed a late cancellation fee.\nCOST CENTER RECEIVED:"
+            "text": "Cost Center Required-\nEvent will remain in tentative status until cost center number is received. If a cost center number is not received prior to noon at least one business day before your event, it will be cancelled and assessed a late cancellation fee.\nDATE COST CENTER RECEIVED:"
         },
         "setup_required": {
             "id": "setup_required",
             "label": "Setup Required",
             "priority": 1,
-            "text": "Setup Must be Provided -\nYou must provide room setup or schedule an appointment with the HUB Event Management office at https://forms.microsoft.com/r/175iq2LgrT, 15 academic days prior to your event.\nSET UP COMPLETED:"
+            "text": "Setup Must be Provided -\nYou must provide room setup or schedule an appointment with the HUB Event Management office at https://forms.microsoft.com/r/175iq2LgrT, 15 academic days prior to your event.\nDATE SETUP COMPLETED:"
         },
         "facility_memo": {
             "id": "facility_memo",
@@ -82,7 +82,7 @@
             "id": "food_waiver",
             "label": "Food Waiver Required",
             "priority": 2,
-            "text": "Food Waiver Required -\nPer University Policy AD26, where food is being served, a Food Waiver Form must be submitted for approval.  Forms should be submitted 15 days prior to the first date of your event.  If you have not received the form from Housing and Food Services, please contact AD26@psu.edu for the form, or any questions you may have.  Your event will not be confirmed until the HUB-Robeson Center has received an approved Food Waiver or an email to HUBevents@psu.edu indicating that you no longer wish to serve food, has been received.\nDATE APPROVED:"
+            "text": "Food Waiver Required -\nPer University Policy AD26, where food is being served, a Food Waiver Form must be submitted for approval.  Forms should be submitted 15 days prior to the first date of your event.  If you have not received the form from Housing and Food Services, please contact AD26@psu.edu for the form, or any questions you may have.  Your event will not be confirmed until the HUB-Robeson Center has received an approved Food Waiver or an email to HUBevents@psu.edu indicating that you no longer wish to serve food, has been received.\nDATE FOOD WAIVER APPROVED:"
         },
         "hub_banner": {
             "id": "hub_banner",
@@ -132,7 +132,7 @@
             "id": "program_reg",
             "label": "Program Registration",
             "priority": 1,
-            "text": "Program Registration Meeting Required -\nA program registration meeting is required. Go to bit.ly/schedPR-C to schedule a program registration meeting. Please add the 25Live reference number in the notes section of the appointment request.\nPROGRAM REGISTRATION MEETING HELD:"
+            "text": "Program Registration Meeting Required -\nA program registration meeting is required. Go to bit.ly/schedPR-C to schedule a program registration meeting. Please add the 25Live reference number in the notes section of the appointment request.\nDATE PROGRAM REGISTRATION MEETING HELD:"
         },
         "upac_req": {
             "id": "upac_req",
@@ -180,7 +180,7 @@
             "id": "frat_sorority_recruiting",
             "label": "Fraternity/Sorority Recruiting",
             "priority": 7,
-            "text": "FRATERNITY AND SORORITY RECRUITING -\nAll policies and guidelines outlined by the Office of Fraternity and Sorority Life related to recruiting must be followed.  All violations will be reported."
+            "text": "FRATERNITY AND SORORITY RECRUITING -\nAll policies and guidelines outlined by the Office of Fraternity and Sorority Life related to recruiting must be followed. All violations will be reported."
         },
         "funds_collected": {
             "id": "funds_collected",
@@ -198,7 +198,7 @@
             "id": "minors_ad39",
             "label": "Minors AD39",
             "priority": 2,
-            "text": "Minors AD39 -\nIt has been determined that minors will be present at this event and that the sponsoring organization will have a duty to care. Please adhere to PSU policy AD39 - Minors involved in university-sponsored programs or programs held at the university and/or housed in university facilities. Completed forms can be returned to 125 HUB.\nFORM ISSUED:\nFORM SUBMITTED:"
+            "text": "Minors AD39 -\nIt has been determined that minors will be present at this event and that the sponsoring organization will have a duty to care. Please adhere to PSU policy AD39 - Minors involved in university-sponsored programs or programs held at the university and/or housed in university facilities. Completed forms can be returned to 125 HUB.\nDATE FORM ISSUED:\nDATE FORM SUBMITTED:"
         },
         "rso_nonpayment": {
             "id": "rso_nonpayment",
@@ -228,13 +228,13 @@
             "id": "security_required",
             "label": "Security Required",
             "priority": 1,
-            "text": "Security Required -\n- You must submit a police event request at https://www.police.psu.edu/event-form at least 40 academic days prior to your event. Failure to meet this deadline may result in event cancellation or modification.\n- A pre-event meeting will be scheduled at least 10 academic days prior to the date of the event by the facility coordinator.\nSECURITY REQUESTED DATE:\nSECURITY DETAIL:"
+            "text": "Security Required -\n- You must submit a police event request at https://www.police.psu.edu/event-form at least 40 academic days prior to your event. Failure to meet this deadline may result in event cancellation or modification.\n- A pre-event meeting will be scheduled at least 10 academic days prior to the date of the event by the facility coordinator.\nDATE SECURITY REQUESTED:\nSECURITY DETAIL:"
         },
         "sexually_explicit_approval": {
             "id": "sexually_explicit_approval",
             "label": "Sexually Explicit Approval",
             "priority": 2,
-            "text": "Sexually Explicit Approval -\nApproval required for sexually explicit or violent graphic materials. Contact programreg@psu.edu upon receipt of tentative email reservation.\nSEXUALLY EXPLICIT APPROVAL COMPLETED:"
+            "text": "Sexually Explicit Approval -\nApproval required for sexually explicit or violent graphic materials. Contact programreg@psu.edu upon receipt of tentative email reservation.\nDATE SEXUALLY EXPLICIT APPROVAL COMPLETED:"
         },
         "small_games_of_chance": {
             "id": "small_games_of_chance",
@@ -246,7 +246,7 @@
             "id": "tickets_required",
             "label": "Tickets Required",
             "priority": 2,
-            "text": "Tickets Required -\nTickets are required for admission to your event and/or paid raffles. Tickets must be printed by Marketing Services (usamarketing@psu.edu, 230 HUB) OR distributed digitally through an online vendor that can remit payment via check to your organization. Ticket revenue must be deposited within one business day of receipt. Please allow up to 4 academic days for ticket request to be completed. Visit https://bit.ly/HUBTickets for more information.\nTICKETS SUBMITTED TO HUB MARKETING SERVICES (230 HUB):\nTICKET ACCOUNTABILITY COMPLETED IN ASA OFFICE (240 HUB):"
+            "text": "Tickets Required -\nTickets are required for admission to your event and/or paid raffles. Tickets must be printed by Marketing Services (usamarketing@psu.edu, 230 HUB) OR distributed digitally through an online vendor that can remit payment via check to your organization. Ticket revenue must be deposited within one business day of receipt. Please allow up to 4 academic days for ticket request to be completed. Visit https://bit.ly/HUBTickets for more information.\nTICKETS SUBMITTED TO HUB MARKETING SERVICES (230 HUB):\nDATE TICKET ACCOUNTABILITY COMPLETED IN ASA OFFICE (240 HUB):"
         },
         "thon_funds_collected": {
             "id": "thon_funds_collected",
@@ -264,7 +264,7 @@
             "id": "virtual_guidelines",
             "label": "Virtual Guidelines",
             "priority": 7,
-            "text": "Virtual Guidelines -\nMake Sure your Virtual Event is Secure!\nReference the PSU Zoom Security (https://studentaffairs.psu.edu/support-safety-conduct/safety-security/zoom-security)  to access protocols for securing your zoom event.\nSchedule a conversation with the Student Organization Consultants to review resources and processes for securing your event. Request an appointment at studentorg@psu.edu."
+            "text": "Virtual Guidelines -\nMake Sure your Virtual Event is Secure!\nReference the PSU Zoom Security (https://studentaffairs.psu.edu/support-safety-conduct/safety-security/zoom-security) to access protocols for securing your zoom event.\nSchedule a conversation with the Student Organization Consultants to review resources and processes for securing your event. Request an appointment at studentorg@psu.edu."
         }
     },
     "outdoor_comments": {
@@ -272,7 +272,7 @@
             "id": "outdoor_spaces",
             "label": "Outdoor Spaces",
             "priority": 3,
-            "text": "OUTDOOR SPACES\n1. Use of amplified sound in outdoor locations is prohibited 8:00 AM to 5:00 PM on weekdays, and before noontime on weekends.  Amplified sound is permitted Monday thru Friday from 12:00 Noon to 1:00 PM on Old Main Patio only.\n2. Groups using Outdoor areas will need to provide their own table and chairs. The HUB does not provide furniture or equipment for use in outdoor locations.\n3. Placing or erecting structures of any size or material is prohibited.  This includes overhead canopies.\n4. Creation of safety hazards is prohibited.\n5. Hand held signs are permitted, but signs may not be placed on or affixed in any manner to University grounds and property, including but not limited to buildings, poles, gates, fences, trees, or other vegetation.\n6. Pedestrian or vehicular traffic must not be impeded in any fashion.\n7. Disturbance of, or interference with classrooms, offices, study facilities, libraries, or other University facilities & activities is prohibited.\n8. Flashing or rotating lights and illuminated signs may not be used.\n9. Papers, pamphlets, and similar materials must be distributed in person by the sponsoring organization.\n10. Tables must be staffed by the sponsoring organization and or group.\n11. Damage or destruction of property is prohibited. Should damages, destruction or clean up charges occur, the organization, department or individual who reserved the space will be responsible for any and all charges.\n\nReservations are weather dependent and may be re-scheduled or cancelled at the discretion of the HUB-Robeson Center staff.\n\nIf reserved location is listed under Penn State Policy AD51 additional guidelines apply. Please see attachment or visit https://policy.psu.edu/policies/ad51"
+            "text": "OUTDOOR SPACES\n1. Use of amplified sound in outdoor locations is prohibited 8:00 AM to 5:00 PM on weekdays, and before noontime on weekends.  Amplified sound is permitted Monday thru Friday from 12:00 Noon to 1:00 PM on Old Main Patio only.\n2. Groups using Outdoor areas will need to provide their own table and chairs. The HUB does not provide furniture or equipment for use in outdoor locations.\n3. Placing or erecting structures of any size or material is prohibited. This includes overhead canopies.\n4. Creation of safety hazards is prohibited.\n5. Hand held signs are permitted, but signs may not be placed on or affixed in any manner to University grounds and property, including but not limited to buildings, poles, gates, fences, trees, or other vegetation.\n6. Pedestrian or vehicular traffic must not be impeded in any fashion.\n7. Disturbance of, or interference with classrooms, offices, study facilities, libraries, or other University facilities & activities is prohibited.\n8. Flashing or rotating lights and illuminated signs may not be used.\n9. Papers, pamphlets, and similar materials must be distributed in person by the sponsoring organization.\n10. Tables must be staffed by the sponsoring organization and or group.\n11. Damage or destruction of property is prohibited. Should damages, destruction or clean up charges occur, the organization, department or individual who reserved the space will be responsible for any and all charges.\n\nReservations are weather dependent and may be re-scheduled or cancelled at the discretion of the HUB-Robeson Center staff.\n\nIf reserved location is listed under Penn State Policy AD51 additional guidelines apply. Please see attachment or visit https://policy.psu.edu/policies/ad51"
         },
         "opp_work_order": {
             "id": "opp_work_order",
