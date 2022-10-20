@@ -222,7 +222,7 @@
             "id": "pie_throwing",
             "label": "Pie Throwing Contest",
             "priority": 7,
-            "text": "Pie Throwing Contest -\nThe following conditions must be met for Pie Throwing Contests:\n*The person having pies thrown at them (target) must wear protective eye wear\n*Pies must be light (made from throw away tins and whipped cream or shaving cream)\n*Ensure the distance between the thrower and target is great enough to prevent injury\n*The event sponsor must completely clean the area when the contest is over.\n*The event sponsor should check with facility manager to ensure compliance with facility policies."
+            "text": "Pie Throwing Contest -\nThe following conditions must be met for Pie Throwing Contests:\n- The person having pies thrown at them (target) must wear protective eye wear.\n- Pies must be light (made from disposable tins and whipped cream or shaving cream).\n- The distance between the thrower and target must be great enough to prevent injury.\n- The event sponsor must contain the event to a tarped area and completely clean any spillage when the contest is over.\n- The event sponsor should check with facility manager to ensure compliance with facility policies."
         },
         "security_required": {
             "id": "security_required",
