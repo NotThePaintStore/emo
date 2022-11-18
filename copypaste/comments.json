@@ -10,13 +10,13 @@
             "id": "balloon_memo",
             "label": "Balloon Memo",
             "priority": 5,
-            "text": "Balloon Memo -\nBalloons must be removed promptly by the end of your reservation, or they will be removed with charges for removal billed to your organization.  Helium balloons are not permitted in the atrium area.  This area includes HUB 131, 132 Flex Theater, 134, and Monumental Staircase."
+            "text": "Balloon Memo -\nBalloons must be removed promptly by the end of your reservation, or they will be removed with charges for removal billed to your organization. Helium balloons are not permitted in the atrium area. This area includes HUB 131, 132 Flex Theater, 134, and Monumental Staircase."
         },
         "balloon_arch": {
             "id": "balloon_arch",
             "label": "Balloon Arch & Column Memo",
             "priority": 5,
-            "text": "Balloon Arch and Column Memo -\nBalloon Arch resource reservations include base, extension poles and flexible arch cord.  Balloon Column resource includes base and extension poles.  Helium Balloons are not required.  An arch or column can be picked up in 125 HUB.  Failure to return all parts may result in charges."
+            "text": "Balloon Arch and Column Memo -\nBalloon Arch resource reservations include base, extension poles and flexible arch cord. Balloon Column resource includes base and extension poles. Helium Balloons are not required. An arch or column can be picked up in 125 HUB. Failure to return all parts may result in charges."
         },
         "cost_center": {
             "id": "cost_center",
@@ -40,49 +40,49 @@
             "id": "cancellation_rso_meeting",
             "label": "Cancellation Policy (RSO) - Meeting Space",
             "priority": 9,
-            "text": "Cancellation Policy (RSO) -\nMeeting Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 48 hours before the meeting, or by noon on Friday for a weekend event via email to hubevents@psu.edu.  Failure to cancel 3 meetings during a semester may result in the loss of future reservation privileges and/or referral to SOCC."
+            "text": "Cancellation Policy (RSO) -\nMeeting Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 48 hours before the meeting, or by noon on Friday for a weekend event via email to hubevents@psu.edu. Failure to cancel 3 meetings during a semester may result in the loss of future reservation privileges and/or referral to SOCC."
         },
         "cancellation_rso_event": {
             "id": "cancellation_rso_event",
             "label": "Cancellation Policy (RSO) - Event Space",
             "priority": 9,
-            "text": "Cancellation Policy (RSO) -\nEvent Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 10 academic days before the event via email to hubevents@psu.edu.  Failure to cancel the event by this deadline will result in a $75 late cancellation fee.   Failure to cancel 3 events during the academic year may result in the loss of future reservation privileges and/or referral to SOCC."
+            "text": "Cancellation Policy (RSO) -\nEvent Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 10 academic days before the event via email to hubevents@psu.edu. Failure to cancel the event by this deadline will result in a $75 late cancellation fee.  Failure to cancel 3 events during the academic year may result in the loss of future reservation privileges and/or referral to SOCC."
         },
         "cancellation_ud_meeting": {
             "id": "cancellation_ud_meeting",
             "label": "Cancellation Policy (UD) - Meeting Space",
             "priority": 9,
-            "text": "Cancellation Policy (UD) -\nMeeting Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 48 hours before the meeting, or by noon on Friday for a weekend event via email to hubevents@psu.edu.  Failure to cancel 3 meetings during a semester may result in the loss of future reservation privileges."
+            "text": "Cancellation Policy (UD) -\nMeeting Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 48 hours before the meeting, or by noon on Friday for a weekend event via email to hubevents@psu.edu. Failure to cancel 3 meetings during a semester may result in the loss of future reservation privileges."
         },
         "cancellation_ud_event": {
             "id": "cancellation_ud_event",
             "label": "Cancellation Policy (UD) - Event Space",
             "priority": 9,
-            "text": "Cancellation Policy (UD) -\nEvent Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 10 academic days before the event via email to hubevents@psu.edu.  Failure to cancel the event by this deadline will result in a $75 late cancellation fee.   Failure to cancel 3 events during the academic year may result in the loss of future reservation privileges."
+            "text": "Cancellation Policy (UD) -\nEvent Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 10 academic days before the event via email to hubevents@psu.edu. Failure to cancel the event by this deadline will result in a $75 late cancellation fee.  Failure to cancel 3 events during the academic year may result in the loss of future reservation privileges."
         },
         "osmond_banner": {
             "id": "osmond_banner",
             "label": "Osmond Banner (Dept.)",
             "priority": 5,
-            "text": "Osmond Banner (Department) -\nIn order to complete reservation, you must submit an OPP Work order to have the banner hung, All Osmond Banners must be hung by PSU Office of Physical Plant only.  Use your departmental Standing Order Number for OPP charges, and use the corresponding dates of your reservation. Banner must be delivered to the Event Management Office, 125 HUB, by 4pm on the Thursday prior to the Monday reservation start date.  You must present a copy of your completed OPP work order when you deliver the banner, or the banner will not be accepted.  Banner must be picked up at the same location on the Monday immediately following the reservation end date.  Banner must prominently display the name of the sponsor, and must be made according to specifications at www.sa.psu.edu/usa/eventsmgmt/banners.shtml or it will not be hung."
+            "text": "Osmond Banner (Department) -\nIn order to complete your reservation, you must submit an OPP Work order to have the banner hung, All Osmond Banners must be hung by PSU Office of Physical Plant only. Use your departmental Standing Order Number for OPP charges, and use the corresponding dates of your reservation. Banner must be delivered to the Event Management Office, 125 HUB, by 4pm on the Thursday prior to the Monday reservation start date. You must present a copy of your completed OPP work order when you deliver the banner, or the banner will not be accepted. Banner must be picked up at the same location on the Monday immediately following the reservation end date. Banner must prominently display the name of the sponsor, and must be made according to the following specifications or it will not be hung.\n- Made of vinyl or cloth\n- Grommets in the corners and along the top and bottom, at least every 36\" of length\n- Cannot exceed 36\" x 120\"\n- Name of the sponsoring organization must be prominently displayed"
         },
         "display_case": {
             "id": "display_case",
             "label": "Display Case Memo",
             "priority": 5,
-            "text": "Display Case Memo -\nYour reservation begins at 10:00am Monday. If the case is empty prior to 10, your display may be placed earlier. Your reservation ends at 9:00am the following Monday.  Please remove your display by 9:00am so the next scheduled user may place theirs. If your display is not removed by 9:00am, it may be removed."
+            "text": "Display Case Memo -\nYour reservation begins at 10:00am Monday. If the case is empty prior to 10, your display may be placed earlier. Your reservation ends at 9:00am the following Monday. Please remove your display by 9:00am so the next scheduled user may place theirs. If your display is not removed by 9:00am, it may be removed."
         },
         "flex_prod": {
-            "id": "flex_prod",
-            "label": "Flex Production",
+            "id": "production",
+            "label": "Flex/008 Lounge Production",
             "priority": 5,
-            "text": "Flex Theater -\nFully Produced (sound, stage, and lighting) events are available. Setup for this option must be provided at a minimum of 14 days prior to your event. Contact the Event Management Office in 125 HUB at https://forms.microsoft.com/r/175iq2LgrT to provide setup or arrange event production.\n*Outside sound/lighting systems are not permitted."
+            "text": "Flex Theater / 008 Lounge -\nFully Produced (sound, stage, and lighting) events are available. Setup for this option must be provided at a minimum of 14 days prior to your event. Contact the Event Management Office in HUB 125 at https://forms.microsoft.com/r/175iq2LgrT to provide setup or arrange event production.\n*Outside sound/lighting systems are not permitted in the Flex Theater."
         },
         "food_waiver": {
             "id": "food_waiver",
             "label": "Food Waiver Required",
             "priority": 1,
-            "text": "Food Waiver Required -\nPer University Policy AD26, where food is being served, a Food Waiver Form must be submitted for approval.  Forms should be submitted 15 days prior to the first date of your event.  If you have not received the form from Housing and Food Services, please contact AD26@psu.edu for the form, or any questions you may have.  Your event will not be confirmed until the HUB-Robeson Center has received an approved Food Waiver or an email to HUBevents@psu.edu indicating that you no longer wish to serve food, has been received.\nDATE FOOD WAIVER APPROVED:"
+            "text": "Food Waiver Required -\nPer University Policy AD26, where food is being served, a Food Waiver Form must be submitted for approval. Forms should be submitted 15 days prior to the first date of your event. You may complete the food waiver form at https://www.absecom.psu.edu/ad26_waiver/user_pages/ad26-form-win.cfm. Please contact AD26@psu.edu for any questions you may have. Your event will not be confirmed until the HUB-Robeson Center has been forwarded the approval notice or an email to HUBevents@psu.edu indicating that you no longer wish to serve food.\nDATE FOOD WAIVER APPROVED:"
         },
         "hub_banner": {
             "id": "hub_banner",
@@ -162,7 +162,7 @@
             "id": "contracts_required",
             "label": "Contracts Required",
             "priority": 2,
-            "text": "Contracts Required -\nUniversity Contracts are required.  A contract appointment should be scheduled 20 academic days prior to your program or once your UPAC funding has been allocated, whichever is first.  Please use the booking tool at http://bit.ly/schedPR-C to schedule a \"contracts\" meeting.\nPlease have the following information available:\n- Honoraria, travel, and/or lodging details/amount\n- Whom to make check payable (W9 if available) as well as name, phone number, and e-mail\nCONTRACTS ISSUED (NAME, DATE):\n# & TYPE OF CONTRACTS:\nCONTRACT(S) RETURNED TO HUB 209 :"
+            "text": "Contracts Required -\nUniversity Contracts are required.  A contract appointment should be scheduled 20 academic days prior to your program or once your UPAC funding has been allocated, whichever is first. Please use the booking tool at http://bit.ly/schedPR-C to schedule a \"contracts\" meeting.\nPlease have the following information available:\n- Honoraria, travel, and/or lodging details/amount\n- Whom to make check payable (W9 if available) as well as name, phone number, and e-mail\nCONTRACTS ISSUED (NAME, DATE):\n# & TYPE OF CONTRACTS:\nCONTRACT(S) RETURNED TO HUB 209:"
         },
         "copyright": {
             "id": "copyright",
@@ -298,7 +298,7 @@
             "id": "classroom_comments",
             "label": "Classroom Comments",
             "priority": 5,
-            "text": "The HUB Event Management Office must be notified of any room cancellation no later than 48 hours before the meeting, or by noon on Friday for a weekend event. Failure to cancel the event may result in loss of reservation privileges.\n\nFOR USERS OF ACADEMIC SPACE\n\nPolicy AD62 Scheduling and Use of General Purpose Classrooms states that ALL FOOD AND DRINK CONSUMPTION IS PROHIBITED IN THE GENERAL PURPOSE CLASSROOMS WITH THE EXCEPTION OF BOTTLED WATER.\n\nYour reserved space must be left clean and orderly, ready for the next event.  Failure to do so will result in charges to your organization for cleanup time. Damages to equipment or furnishings are the responsibility of the group. A charge will be made for repair or replacement of furnishings, equipment or removal of stains. Decorations, signs, and other materials MUST NOT be attached to the walls, doors, painted or papered surfaces of the building. University Policy PROHIBITS the use of candles or any type of open flame. Storage space is NOT available.  University buildings are smoke and alcohol free buildings.\n\nAny reservation that starts or extends past 11pm must be willing to work with the building’s custodial services in order for them to complete necessary tasks.\n\nAll programs should be conducted in such a manner as not to produce excessive noise that may be disruptive to others.  Sound must not encroach on other rooms or into the hallways.  In considering the assignment of space, University funding, or the approval of publicity, including banners, for student activities involving sexually explicit or graphically violent material, consideration shall be given to general standards of decency and respect for diverse beliefs of members of the University community, including whether the content of the activity, or its publicity, is lewd, or obscene.\n\nhttp://clc.its.psu.edu/classrooms/help\n\nImmediate Assistance: If you experience a problem during a class please call the Hotline at 814-777-0035.\n\nQuestions and Concerns: If your question or concern does not require immediate assistance email TechClass@psu.edu or call 814-777-0035.\n\nEquipment Demonstrations: If you would like to schedule an orientation of any or all the equipment found in a technology classroom email TechClass@psu.edu to request a demonstration or call 814-777-0035."
+            "text": "The HUB Event Management Office must be notified of any room cancellation no later than 48 hours before the meeting, or by noon on Friday for a weekend event. Failure to cancel the event may result in loss of reservation privileges.\n\nFOR USERS OF ACADEMIC SPACE\n\nPolicy AD62 Scheduling and Use of General Purpose Classrooms states that ALL FOOD AND DRINK CONSUMPTION IS PROHIBITED IN THE GENERAL PURPOSE CLASSROOMS WITH THE EXCEPTION OF BOTTLED WATER.\n\nYour reserved space must be left clean and orderly, ready for the next event. Failure to do so will result in charges to your organization for cleanup time. Damages to equipment or furnishings are the responsibility of the group. A charge will be made for repair or replacement of furnishings, equipment or removal of stains. Decorations, signs, and other materials MUST NOT be attached to the walls, doors, painted or papered surfaces of the building. University Policy PROHIBITS the use of candles or any type of open flame. Storage space is NOT available.  University buildings are smoke and alcohol free buildings.\n\nAny reservation that starts or extends past 11pm must be willing to work with the building’s custodial services in order for them to complete necessary tasks.\n\nAll programs should be conducted in such a manner as not to produce excessive noise that may be disruptive to others.  Sound must not encroach on other rooms or into the hallways.  In considering the assignment of space, University funding, or the approval of publicity, including banners, for student activities involving sexually explicit or graphically violent material, consideration shall be given to general standards of decency and respect for diverse beliefs of members of the University community, including whether the content of the activity, or its publicity, is lewd, or obscene.\n\nImmediate Assistance: If you experience a problem during a class please call the Hotline at 814-777-0035.\n\nQuestions and Concerns: If your question or concern does not require immediate assistance email TechClass@psu.edu or call 814-777-0035.\n\nEquipment Demonstrations: If you would like to schedule an orientation of any or all the equipment found in a technology classroom email TechClass@psu.edu to request a demonstration or call 814-777-0035."
         }
     }
 }
