@@ -72,7 +72,7 @@
             "priority": 5,
             "text": "Display Case Memo -\nYour reservation begins at 10:00am Monday. If the case is empty prior to 10, your display may be placed earlier. Your reservation ends at 9:00am the following Monday. Please remove your display by 9:00am so the next scheduled user may place theirs. If your display is not removed by 9:00am, it may be removed."
         },
-        "flex_prod": {
+        "production": {
             "id": "production",
             "label": "Flex/008 Lounge Production",
             "priority": 5,
@@ -82,7 +82,7 @@
             "id": "food_waiver",
             "label": "Food Waiver Required",
             "priority": 1,
-            "text": "Food Waiver Required -\nPer University Policy AD26, where food is being served, a Food Waiver Form must be submitted for approval. Forms should be submitted 15 days prior to the first date of your event. You may complete the food waiver form at https://www.absecom.psu.edu/ad26_waiver/user_pages/ad26-form-win.cfm. Please contact AD26@psu.edu for any questions you may have. Your event will not be confirmed until the HUB-Robeson Center has been forwarded the approval notice or an email to HUBevents@psu.edu indicating that you no longer wish to serve food.\nDATE FOOD WAIVER APPROVED:"
+            "text": "Food Waiver Required -\nPer University Policy AD26, where food is being served, a Food Waiver Form must be submitted for approval. Forms should be submitted 15 days prior to the first date of your event. You may complete the food waiver form at https://www.absecom.psu.edu/ad26_waiver/user_pages/ad26-form-win.cfm. Please contact AD26@psu.edu for any questions you may have. Your event will not be confirmed until the HUB-Robeson Center has been forwarded the approval notice or received an email to HUBevents@psu.edu indicating that you no longer wish to serve food.\nDATE FOOD WAIVER APPROVED:"
         },
         "hub_banner": {
             "id": "hub_banner",
