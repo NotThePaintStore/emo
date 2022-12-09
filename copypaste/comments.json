@@ -39,26 +39,26 @@
         "cancellation_rso_meeting": {
             "id": "cancellation_rso_meeting",
             "label": "Cancellation Policy (RSO) - Meeting Space",
-            "priority": 9,
-            "text": "Cancellation Policy (RSO) -\nMeeting Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 48 hours before the meeting, or by noon on Friday for a weekend event via email to hubevents@psu.edu. Failure to cancel 3 meetings during a semester may result in the loss of future reservation privileges and/or referral to SOCC."
+            "priority": 10,
+            "text": "Cancellation Policy (RSO) -\nMeeting Space\nThe Event Management Office must be notified of any room cancellation no later than 48 hours before the meeting, or by noon on Friday for a weekend event via email to hubevents@psu.edu. Failure to cancel 3 meetings during a semester may result in the loss of future reservation privileges and/or referral to SOCC."
         },
         "cancellation_rso_event": {
             "id": "cancellation_rso_event",
             "label": "Cancellation Policy (RSO) - Event Space",
-            "priority": 9,
-            "text": "Cancellation Policy (RSO) -\nEvent Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 10 academic days before the event via email to hubevents@psu.edu. Failure to cancel the event by this deadline will result in a $75 late cancellation fee.  Failure to cancel 3 events during the academic year may result in the loss of future reservation privileges and/or referral to SOCC."
+            "priority": 10,
+            "text": "Cancellation Policy (RSO) -\nEvent Space\nThe Event Management Office must be notified of any room cancellation no later than 10 academic days before the event via email to hubevents@psu.edu. Failure to cancel the event by this deadline will result in a $75 late cancellation fee.  Failure to cancel 3 events during the academic year may result in the loss of future reservation privileges and/or referral to SOCC."
         },
         "cancellation_ud_meeting": {
             "id": "cancellation_ud_meeting",
             "label": "Cancellation Policy (UD) - Meeting Space",
-            "priority": 9,
-            "text": "Cancellation Policy (UD) -\nMeeting Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 48 hours before the meeting, or by noon on Friday for a weekend event via email to hubevents@psu.edu. Failure to cancel 3 meetings during a semester may result in the loss of future reservation privileges."
+            "priority": 10,
+            "text": "Cancellation Policy (UD) -\nMeeting Space\nThe Event Management Office must be notified of any room cancellation no later than 48 hours before the meeting, or by noon on Friday for a weekend event via email to hubevents@psu.edu. Failure to cancel 3 meetings during a semester may result in the loss of future reservation privileges."
         },
         "cancellation_ud_event": {
             "id": "cancellation_ud_event",
             "label": "Cancellation Policy (UD) - Event Space",
-            "priority": 9,
-            "text": "Cancellation Policy (UD) -\nEvent Space\nThe Event Management Office must be notified of any room cancellation of confirmed reservations no later than 10 academic days before the event via email to hubevents@psu.edu. Failure to cancel the event by this deadline will result in a $75 late cancellation fee.  Failure to cancel 3 events during the academic year may result in the loss of future reservation privileges."
+            "priority": 10,
+            "text": "Cancellation Policy (UD) -\nEvent Space\nThe Event Management Office must be notified of any room cancellation no later than 10 academic days before the event via email to hubevents@psu.edu. Failure to cancel the event by this deadline will result in a $75 late cancellation fee.  Failure to cancel 3 events during the academic year may result in the loss of future reservation privileges."
         },
         "osmond_banner": {
             "id": "osmond_banner",
@@ -120,10 +120,16 @@
             "priority": 5,
             "text": "RSO Banner Memo -\nBanner must be delivered to the Event Management Office by 4:00pm Friday prior to the start of your reservation and can be picked up at the same location the following Monday. Banner must prominently display the name of the sponsor, cannot exceed 3 ft by 10 ft, and must have grommets in the corners and every 36” on the top and bottom. Banner specifications can be found here: https://studentaffairs.psu.edu/facilities-spaces/hub-robeson-center-offices-spaces/hub-robeson-center-policies-forms"
         },
+        "rso_payment": {
+            "id": "rso_payment",
+            "label": "RSO Payment Procedure",
+            "priority": 9,
+            "text": "Payment Policy (RSO) -\nRSO treasurer will receive an invoice via email following the event. The treasurer must go to 241-C HUB to sign off on the invoice and make sure sufficient funds are available in their ASA account. Alternatively, payment can be made via credit card transaction. Payment is required within 30 calendar days after the e-mail notification."
+        },
         "schwab_cancellation": {
             "id": "schwab_cancellation",
             "label": "Schwab Cancellation Policy",
-            "priority": 9,
+            "priority": 10,
             "text": "Schwab Cancellation Policy -\nAuditorium Space\nThe Events Management Office must be notified of any room cancellation of confirmed reservations no later than 20 academic days before the event.  Failure to cancel the event by this deadline will result in a $130.00 late cancellation fee.   Failure to cancel 3 events during the academic year may result in the loss of future reservation privileges and/or referral to SOCC."
         }
     },
@@ -200,12 +206,6 @@
             "priority": 2,
             "text": "Minors AD39 -\nIt has been determined that minors will be present at this event and that the sponsoring organization will have a duty to care. Please adhere to PSU policy AD39 - Minors involved in university-sponsored programs or programs held at the university and/or housed in university facilities. Completed forms can be returned to 125 HUB.\nDATE FORM ISSUED:\nDATE FORM SUBMITTED:"
         },
-        "rso_nonpayment": {
-            "id": "rso_nonpayment",
-            "label": "RSO Nonpayment Policy",
-            "priority": 10,
-            "text": "Non-Payment Policy (RSO) -\nRSO treasurer will receive an invoice via email following the event. The treasurer must go to 241-C HUB to sign off on the invoice and make sure sufficient funds are available in their ASA account. Payment is required within 30 calendar days after the e-mail notification.\n\nPayments not made within 30 days will result in an additional 10% late fee charge. Payments not received within 60 calendar days after the e-mail notification may result in loss of future room reservation privileges and may also result in the cancellation of existing reservations.\n\nStudent organizations who do not make payment within 180 calendar days may have their ASA account ‘frozen’ and may lose the ability to request UPAC funds until payment is made.  Student organizations may also be referred to the Student Organization Conduct Committee (SOCC) for further review and action.\n\nThe Budget and Finance Office reserves the right to have the Senior Director, HUB-Robeson Center, sign off on any unpaid bills at the end of spring semester providing that sufficient funds are available in their ASA account.\n\nIf your organization has outstanding invoices in your ASA account, your reservation will be placed on HOLD until the outstanding invoices are paid.  If the invoices are not paid by the deadline to confirm this reservation, it will be cancelled."
-        },
         "off_campus_event": {
             "id": "off_campus_event",
             "label": "Off-Campus Event",
@@ -228,7 +228,7 @@
             "id": "security_required",
             "label": "Security Required",
             "priority": 2,
-            "text": "Security Required -\n- You must submit a police event request at https://www.police.psu.edu/event-form at least 40 academic days prior to your event. Failure to meet this deadline may result in event cancellation or modification.\n- A pre-event meeting will be scheduled at least 10 academic days prior to the date of the event by the facility coordinator.\nDATE SECURITY REQUESTED:\nSECURITY DETAIL:"
+            "text": "Security Required -\n- You must submit a police event request at https://www.police.psu.edu/event-form at least 45 academic days prior to your event. Failure to meet this deadline may result in event cancellation or modification.\n- A pre-event meeting will be scheduled at least 10 academic days prior to the date of the event by the facility coordinator.\nDATE SECURITY REQUESTED:\nSECURITY DETAIL:"
         },
         "sexually_explicit_approval": {
             "id": "sexually_explicit_approval",
@@ -297,7 +297,7 @@
         "classroom_comments": {
             "id": "classroom_comments",
             "label": "Classroom Comments",
-            "priority": 5,
+            "priority": 8,
             "text": "The HUB Event Management Office must be notified of any room cancellation no later than 48 hours before the meeting, or by noon on Friday for a weekend event. Failure to cancel the event may result in loss of reservation privileges.\n\nFOR USERS OF ACADEMIC SPACE\n\nPolicy AD62 Scheduling and Use of General Purpose Classrooms states that ALL FOOD AND DRINK CONSUMPTION IS PROHIBITED IN THE GENERAL PURPOSE CLASSROOMS WITH THE EXCEPTION OF BOTTLED WATER.\n\nYour reserved space must be left clean and orderly, ready for the next event. Failure to do so will result in charges to your organization for cleanup time. Damages to equipment or furnishings are the responsibility of the group. A charge will be made for repair or replacement of furnishings, equipment or removal of stains. Decorations, signs, and other materials MUST NOT be attached to the walls, doors, painted or papered surfaces of the building. University Policy PROHIBITS the use of candles or any type of open flame. Storage space is NOT available.  University buildings are smoke and alcohol free buildings.\n\nAny reservation that starts or extends past 11pm must be willing to work with the building’s custodial services in order for them to complete necessary tasks.\n\nAll programs should be conducted in such a manner as not to produce excessive noise that may be disruptive to others.  Sound must not encroach on other rooms or into the hallways.  In considering the assignment of space, University funding, or the approval of publicity, including banners, for student activities involving sexually explicit or graphically violent material, consideration shall be given to general standards of decency and respect for diverse beliefs of members of the University community, including whether the content of the activity, or its publicity, is lewd, or obscene.\n\nImmediate Assistance: If you experience a problem during a class please call the Hotline at 814-777-0035.\n\nQuestions and Concerns: If your question or concern does not require immediate assistance email TechClass@psu.edu or call 814-777-0035.\n\nEquipment Demonstrations: If you would like to schedule an orientation of any or all the equipment found in a technology classroom email TechClass@psu.edu to request a demonstration or call 814-777-0035."
         }
     }
