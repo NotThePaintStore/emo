@@ -10,6 +10,6 @@ Projects relating to the HUB Event Management Office
 5. Venue-Specific Notes
 6. 
 7. General Program Notes
-8. 
-9. Cancellation Policies
-10. Non-Payment Policy
+8. Classroom Policy
+9. RSO Payment Policy
+10. Cancellation Policies 
