@@ -15,8 +15,9 @@ steps:
 - name: notify
   image: appleboy/drone-telegram
   when:
-    - success
-    - failure
+    status:
+      - success
+      - failure
   settings:
     token:
       from_secret: telegram_token
