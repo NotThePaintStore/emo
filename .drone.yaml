@@ -6,7 +6,7 @@ steps:
   image: plugins/docker
   settings:
     registry: 'http://10.0.1.10:5000'
-    repo: 'http://10.0.1.10:5000/emo/copypaste'
+    repo: '10.0.1.10:5000/emo/copypaste'
     tags:
       - latest
       - '1.1'
