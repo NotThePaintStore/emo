@@ -23,11 +23,10 @@ steps:
       from_secret: telegram_token
     to:
       from_secret: telegram_user
-    message: >
-      {{#success build.status}}
-        build {{build.number}} of {{build.source_repo}} succeeded.
+    message: "{{#success build.status}}
+        build {{build.number}} of {{repo.name}} succeeded.
       {{else}}
-        build {{build.number}} of {{build.source_repo}} failed.
-      {{/success}}
-    format: Markdown
+        build {{build.number}} of {{repo.name}} failed.
+      {{/success}}"
+    format: markdown
     
