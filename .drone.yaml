@@ -5,7 +5,8 @@ steps:
 - name: docker  
   image: plugins/docker
   settings:
-    registry: 'http://10.0.1.10:5000'
+    registry: '10.0.1.10:5000'
+    insecure: true
     repo: '10.0.1.10:5000/emo/copypaste'
     tags:
       - latest
