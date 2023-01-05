@@ -2,7 +2,7 @@ kind: pipeline
 name: default
 
 steps:
-- name: docker  
+- name: build
   image: plugins/docker
   settings:
     registry: '10.0.1.10:5000'
@@ -11,3 +11,22 @@ steps:
     tags:
       - latest
       - '1.1'
+
+- name: notify
+  image: appleboy/drone-telegram
+  when:
+    - success
+    - failure
+  settings:
+    token:
+      from_secret: telegram_token
+    to:
+      from_secret: telegram_user
+    message: >
+      {{#success build.status}}
+        build {{build.number}} of {{build.source_repo}} succeeded.
+      {{else}}
+        build {{build.number}} of {{build.source_repo}} failed.
+      {{/success}}
+    format: Markdown
+    
