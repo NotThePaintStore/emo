@@ -1,0 +1,12 @@
+kind: pipeline
+name: default
+
+steps:
+- name: docker  
+  image: plugins/docker
+  settings:
+    registry: 10.0.1.10:5000
+    repo: emo/copypaste
+    tags:
+      - latest
+      - 1.1
