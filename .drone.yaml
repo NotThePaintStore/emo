@@ -2,7 +2,7 @@ kind: pipeline
 name: default
 
 steps:
-- name: build
+- name: Build
   image: plugins/docker
   settings:
     registry: '10.0.1.10:5000'
@@ -10,9 +10,24 @@ steps:
     repo: '10.0.1.10:5000/emo/copypaste'
     tags:
       - latest
-      - '1.1'
 
-- name: notify
+- name: Test Playbook 
+  image: plugins/ansible:3
+  settings:
+    playbook: deploy.yaml
+  syntax_check: true
+
+- name: Deploy 
+  image: plugins/ansible:3
+  settings:
+    playbook: deploy.yaml
+    user: "ben"
+    private_key:
+      from_secret: drone_ssh_key
+    ssh_extra_args: "-o StrictHostKeyChecking=no"
+
+
+- name: Notify
   image: appleboy/drone-telegram
   when:
     status:

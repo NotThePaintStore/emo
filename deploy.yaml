@@ -1,0 +1,14 @@
+---
+- name: Copy & Paste
+  hosts: 10.0.1.20
+  become: no
+  gather_facts: no
+  tasks:
+
+  - name: Standalone Container
+    community.docker.docker_container:
+      name: copypaste
+      image: "10.0.1.10:5000/emo/copypaste"
+      pull: 'true'
+      restart_policy: always
+      state: started
