@@ -6,7 +6,7 @@ Projects relating to the HUB Event Management Office
 1. Action Items
 2. Secondary Action Items
 3. General Facility Notes
-4. 
+4. Food Memo
 5. Venue-Specific Notes
 6. 
 7. General Program Notes

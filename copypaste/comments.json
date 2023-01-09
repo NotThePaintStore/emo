@@ -78,11 +78,11 @@
             "priority": 5,
             "text": "Flex Theater / 008 Lounge -\nFully Produced (sound, stage, and lighting) events are available. Setup for this option must be provided at a minimum of 14 days prior to your event. Contact the Event Management Office in HUB 125 at https://forms.microsoft.com/r/175iq2LgrT to provide setup or arrange event production.\n*Outside sound/lighting systems are not permitted in the Flex Theater."
         },
-        "food_waiver": {
-            "id": "food_waiver",
-            "label": "Food Waiver Required",
-            "priority": 1,
-            "text": "Food Waiver Required -\nPer University Policy AD26, where food is being served, a Food Waiver Form must be submitted for approval. Forms should be submitted 15 days prior to the first date of your event. You may complete the food waiver form at https://www.absecom.psu.edu/ad26_waiver/user_pages/ad26-form-win.cfm. Please contact AD26@psu.edu for any questions you may have. Your event will not be confirmed until the HUB-Robeson Center has been forwarded the approval notice or received an email to HUBevents@psu.edu indicating that you no longer wish to serve food.\nDATE FOOD WAIVER APPROVED:"
+        "food_memo": {
+            "id": "food_memo",
+            "label": "Food Memo",
+            "priority": 4,
+            "text": "Food Memo -\nFood/beverages that are being served or sold must be prepared by a licensed external food/beverage provider or University food service and be:\n\n1. Served by said provider OR\n2. Prepackaged by said provider and not required to be temperature-controlled.\n\nHOMEMADE GOODS ARE PROHIBITED.\n\nPer University agreement, beverage products that compete with Pepsi products may not be served."
         },
         "hub_banner": {
             "id": "hub_banner",
