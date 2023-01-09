@@ -15,12 +15,14 @@ steps:
   image: plugins/ansible:3
   settings:
     playbook: deploy.yaml
+    inventory: '10.0.1.10'
   syntax_check: true
 
 - name: Deploy 
   image: plugins/ansible:3
   settings:
     playbook: deploy.yaml
+    inventory: '10.0.1.10'
     user: "ben"
     private_key:
       from_secret: drone_ssh_key
@@ -38,10 +40,10 @@ steps:
       from_secret: telegram_token
     to:
       from_secret: telegram_user
-    message: "{{#success build.status}}
-        build {{build.number}} of {{repo.name}} succeeded.
+    message: '{{#success build.status}}
+        Build #{{build.number}} of {{repo.owner}}/{{repo.name}} succeeded. Commit message: "{{commit.message}}".
       {{else}}
-        build {{build.number}} of {{repo.name}} failed.
-      {{/success}}"
+        Build #{{build.number}} of {{repo.owner}}/{{repo.name}} failed. Commit message: "{{commit.message}}".\n\nView details [here]({{build.link}}).
+      {{/success}}'
     format: markdown
     
