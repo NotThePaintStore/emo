@@ -22,7 +22,7 @@ steps:
   image: plugins/ansible:3
   settings:
     playbook: deploy.yaml
-    inventory: '10.0.1.10'
+    inventory: inventory
     user: "ben"
     private_key:
       from_secret: drone_ssh_key
