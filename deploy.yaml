@@ -1,6 +1,6 @@
 ---
 - name: Copy & Paste
-  hosts: 10.0.1.20
+  hosts: copypaste
   become: no
   gather_facts: no
   tasks:
