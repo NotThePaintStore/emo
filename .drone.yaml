@@ -16,6 +16,7 @@ steps:
   settings:
     playbook: deploy.yaml
     inventory: inventory
+    galaxy: requirements.yaml
   syntax_check: true
 
 - name: Deploy 
@@ -23,6 +24,7 @@ steps:
   settings:
     playbook: deploy.yaml
     inventory: inventory
+    galaxy: requirements.yaml
     user: "ben"
     private_key:
       from_secret: drone_ssh_key
