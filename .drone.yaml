@@ -15,7 +15,7 @@ steps:
   image: plugins/ansible:3
   settings:
     playbook: deploy.yaml
-    inventory: '10.0.1.10'
+    inventory: inventory
   syntax_check: true
 
 - name: Deploy 
