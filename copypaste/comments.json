@@ -82,7 +82,7 @@
             "id": "food_memo",
             "label": "Food Memo",
             "priority": 4,
-            "text": "Food Memo -\nFood/beverages that are being served or sold must be prepared by a licensed external food/beverage provider or University food service and be:\n\n1. Served by said provider OR\n2. Prepackaged by said provider and not required to be temperature-controlled.\n\nHOMEMADE GOODS ARE PROHIBITED.\n\nPer University agreement, beverage products that compete with Pepsi products may not be served."
+            "text": "Food Memo -\nFood/beverages that are being served or sold must be prepared by a licensed external food/beverage provider or University food service and be:\n1. Served by said provider OR\n2. Prepackaged by said provider and not required to be temperature-controlled.\nHOMEMADE GOODS ARE PROHIBITED.\nPer University agreement, beverage products that compete with Pepsi products may not be served."
         },
         "hub_banner": {
             "id": "hub_banner",
