@@ -278,7 +278,7 @@
             "id": "opp_work_order",
             "label": "OPP Work Order",
             "priority": 2,
-            "text": "OPP Work Order (Outdoor Event) -\nhttps://pennstate.qualtrics.com/jfe/form/SV_cSF54HnBsTwcDVr\n\nComplete and submit your Work Order at least 10 academic days prior to your event.  Work Orders submitted less than 5 academic days prior to your event will not be guaranteed for approval.\nThere will be a charge for these services. You must cancel your OPP work order no later than 4 academic days prior to your event to avoid any charges.\nDATE SUBMITTED:"
+            "text": "OPP Work Order (Outdoor Event) -\nBe sure to have a meeting with the outdoor events coordinator at least 14 days prior to your event. Work orders submitted less than 7 academic days prior to your event will not be guaranteed for approval.\nThere will be a charge for these services.\nIf your event is cancelled, you must also cancel your OPP work order with the outdoor events coordinator no later than 4 academic days prior to your event in order to avoid any charges."
         },
         "5k": {
             "id": "5k",
