@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Copy &amp; Paste</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="#" class="navbar-brand">Copy &amp; Paste</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="/edit" class="nav-link">Edit</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="target" class="container my-5">
+    <form id="myForm">
+      <div class="d-flex">
+        <div class="flex-fill">
+          <h3>Facility Comments</h3>
+          <ul id="facility_comments"></ul>
+        </div>
+        <div class="flex-fill">
+          <h3>Program Comments</h3>
+          <ul id="program_comments"></ul>
+        </div>
+        <div class="flex-fill">
+          <h3>Outdoor Comments</h3>
+          <ul id="outdoor_comments"></ul>
+          <h3>Classroom Comments</h3>
+          <ul id="classroom_comments"></ul>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <textarea readonly id="myInput" cols="62" rows="50" form="myForm">As the authorized agent of the above sponsor, you agree to abide by the policies of the HUB-Robeson Center and all applicable State and University laws, policies and regulations. Any charges incurred related to this event are the responsibility of the sponsoring organization.</textarea>
+        <div class="col-2">
+          <input type="button" class="btn btn-success mb-1 ms-1" onclick="copyToClipboard()" value="Copy to Clipboard">
+          <br>
+          <input type="reset" id="reset" class="btn btn-danger ms-1" value="Reset">
+        </div>
+      </div>
+    </form>
+  </div>
+<script>
+
+  const baseText = "As the authorized agent of the above sponsor, you agree to abide by the policies of the HUB-Robeson Center and all applicable State and University laws, policies and regulations. Any charges incurred related to this event are the responsibility of the sponsoring organization.";
+  var comments;
+
+  document.addEventListener("DOMContentLoaded", getActive());
+
+  function getActive() {
+    fetch("/active")
+      .then((response) => response.json())
+      .then(data => {
+        comments = data;
+        data.forEach(comment => {
+          var location;
+          if (comment.Category === "facility") {
+            location = document.getElementById("facility_comments");
+          } else if (comment.Category === "program") {
+            location = document.getElementById("program_comments");
+          } else if (comment.Category === "outdoor") {
+            location = document.getElementById("outdoor_comments");
+          } else if (comment.Category === "classroom") {
+            location = document.getElementById("classroom_comments");
+          }
+          l = document.createElement("li");
+          item = document.createElement("input");
+          item.type = "checkbox";
+          item.classList.add("checkbox");
+          item.id = comment.ID;
+          l.appendChild(item);
+
+          label = document.createElement("label");
+          label.classList.add("ms-2");
+          label.htmlFor = comment.ID;
+          label.textContent = comment.Label;
+          l.appendChild(label);
+
+          location.appendChild(l);
+        })
+        boxes = document.getElementsByClassName("checkbox");
+        for (let i = 0; i < boxes.length; i++) {
+          console.log(boxes[i].id);
+          boxes[i].addEventListener("click", formText);
+        };
+        document.getElementById("reset").addEventListener("click", function() {
+          document.getElementById("myInput").innerHTML = baseText;
+        });
+      })
+      .catch(error => console.error(error));
+  }
+
+  function copyToClipboard() {
+    var copyText = document.getElementById("myInput").innerHTML;
+    navigator.clipboard.writeText(copyText);
+  }
+
+  function formText() {
+    var y = baseText;
+    var list = document.getElementsByClassName("checkbox");
+    var newList = [];
+    for (const i of list) {
+      if (i.checked) {
+        newList.push(i);
+      }
+      if (i.checked && i.id == "classroom_comment") {
+        y = "As the authorized agent of the above sponsor, you agree to abide by the policies of the Academic Space and all applicable State and University laws and regulations.";
+      }
+    } 
+    for (let c = 1; c < 11; c++) {
+      for (let d = 0; d < newList.length; d++) {
+        var i = newList[d];
+        comments.forEach(comment => {
+          if (i.id == comment.ID && comment.Priority == c) {
+            console.log("Found " + comment.ID);
+            y = y + "\n\n" + comment.Text;
+          }
+        })
+      }
+    }
+    document.getElementById("myInput").innerHTML = y;
+  }
+</script>
+
+</body>
+</html>
