@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Copy &amp; Paste</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="/" class="navbar-brand">Copy &amp; Paste</a>
+        </li>
+        <li class="nav-item">
+          <a href="/" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Edit</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="main" class="container my-5">
+    <form id="editForm" action="/update" method="POST">
+      <div class="row">
+        <div class="col-6">
+          <div class="row">
+            <div class="col">
+              <label for="editPicker" class="form-label">Select comment to edit:</label>
+              <select id="editPicker" class="form-select" required>
+                <option></option>
+              </select>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col">
+              <label for="newLabel" class="form-label">Modify comment label:</label>
+              <input type="text" id="newLabel" name="newLabel" class="form-control" disabled required>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col">
+              <label for="category" class="form-label">Select category:</label>
+              <select id="category" name="category" class="form-select" disabled required>
+                <option></option>
+                <option value="facility">Facility</option>
+                <option value="program">Program</option>
+                <option value="outdoor">Outdoor</option>
+                <option value="classroom">Classroom</option>
+              </select>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-6">
+              <label class="form-label" for="priority">Priority (1=Top, 10=Bottom):</label>
+              <input type="number" id="priority" name="priority" class="form-control" min="1" max="10" step="1" disabled required>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+              <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="active" name="active" value="yes" disabled>
+                <label class="form-check-label" for="active">Active</label>
+              </div>
+            </div>
+            <div class="col-4 d-flex justify-content-end">
+              <input type="hidden" id="commentID" name="commentID">
+              <input type="reset" id="reset" class="btn btn-danger" value="Clear All">
+              <input type="submit" class="btn btn-primary" value="Save">
+            </div>
+          </div>
+        </div>
+        <div class="col-6">
+          <label for="textContent" class="form-label">Comment text:</label>
+          <textarea id="textContent" class="form-control" name="text" cols="62" rows="20" form="editForm" disabled required></textarea>
+        </div>
+      </div>
+    </form>
+  </div>
+<script>
+  document.addEventListener("DOMContentLoaded", getAll);
+  document.addEventListener("reset", function() {
+    document.getElementById("newLabel").disabled = true;
+    document.getElementById("category").disabled = true;
+    document.getElementById("priority").disabled = true;
+    document.getElementById("textContent").disabled = true;
+    document.getElementById("active").disabled = true;
+    document.getElementById("textContent").innerHTML = "";
+  })
+
+  function getAll() {
+    fetch("/all")
+      .then((response) => response.json())
+      .then(data => {
+        list = document.getElementById("editPicker");
+        data.forEach(comment => {
+          opt = document.createElement("option");
+          opt.value = comment.ID;
+          opt.id = comment.ID;
+          opt.classList.add("cmt");
+          opt.innerHTML = comment.Label;
+          opt.onclick = function(){getComment(comment.ID)};
+          list.appendChild(opt);
+        })
+      })
+  }
+
+  function getComment(id) {
+    var url = "/comment?id=" + id;
+    // fetch the comment with the corresponding id
+    fetch(url)
+      .then((response) => response.json())
+      .then(data => {
+        id = document.getElementById("commentID");
+        lab = document.getElementById("newLabel");
+        cat = document.getElementById("category");
+        pri = document.getElementById("priority");
+        txt = document.getElementById("textContent");
+        act = document.getElementById("active");
+        id.value = data.ID;
+        lab.value = data.Label;
+        lab.disabled = false;
+        cat.value = data.Category;
+        cat.disabled = false;
+        pri.value = data.Priority;
+        pri.disabled = false;
+        txt.innerHTML = data.Text;
+        txt.disabled = false;
+        act.checked = data.Active;
+        act.disabled = false;
+      })
+  }
+
+</script>
+
+</body>
+</html>
