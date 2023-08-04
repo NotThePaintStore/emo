@@ -234,7 +234,7 @@ func GetAllComments(db *sql.DB) ([]Comment, error) {
 }
 
 func main() {
-	dbURL := fmt.Sprintf("postgres://%s@%s/%s?password=%s&sslmode=disable", "postgres", "localhost", "copypaste", "testing")
+	dbURL := fmt.Sprintf("postgres://%s@%s/%s?password=%s&sslmode=disable", "postgres", "copypaste-db", "copypaste", "testing")
 	db, err := sql.Open("postgres", dbURL)
 	if err != nil {
 		log.Fatal(err)
@@ -254,8 +254,6 @@ func main() {
 		log.Fatal(err)
 	}
 	log.Println("Database connection is good")
-
-	// edit.html should get password-protected
 
 	fs := http.FileServer(http.Dir("./static/"))
 
