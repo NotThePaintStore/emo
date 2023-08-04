@@ -54,8 +54,9 @@ func activeHandler(w http.ResponseWriter, r *http.Request, db *sql.DB) {
 
 func updateHandler(w http.ResponseWriter, r *http.Request, db *sql.DB) {
 	if r.Method == http.MethodPost {
-		err := r.ParseForm()
+		err := r.ParseMultipartForm(10 << 20)
 		if err != nil {
+			log.Println(err)
 			http.Error(w, "Error parsing form", http.StatusInternalServerError)
 			return
 		}
@@ -78,8 +79,8 @@ func updateHandler(w http.ResponseWriter, r *http.Request, db *sql.DB) {
 			http.Error(w, "Error updating comment", http.StatusInternalServerError)
 			return
 		}
-		// Send a response to the client
-		fmt.Fprintf(w, "Thank you! %s has been updated.", comment.ID)
+		w.WriteHeader(http.StatusOK)
+		fmt.Fprintf(w, "%s has been updated.", comment.Label)
 	}
 }
 
@@ -101,7 +102,7 @@ func singleHandler(w http.ResponseWriter, r *http.Request, db *sql.DB) {
 }
 
 func GetComment(db *sql.DB, commentID string) (*Comment, error) {
-	log.Println("Checking status of", commentID)
+	log.Println("Getting details for", commentID)
 	// Prepare the SQL statement
 	stmt, err := db.Prepare("SELECT (id || '|' || label || '|' || priority || '|' || text || '|' || category || '|' || active) FROM comments WHERE id = $1")
 	if err != nil {
@@ -257,11 +258,14 @@ func main() {
 	// edit.html should get password-protected
 
 	fs := http.FileServer(http.Dir("./static/"))
-	http.Handle("/", fs)
+
+	http.Handle("/home", fs)
 	http.HandleFunc("/active", func(w http.ResponseWriter, r *http.Request) { activeHandler(w, r, db) })
 	http.HandleFunc("/all", func(w http.ResponseWriter, r *http.Request) { allHandler(w, r, db) })
 	http.HandleFunc("/comment", func(w http.ResponseWriter, r *http.Request) { singleHandler(w, r, db) })
 	http.HandleFunc("/update", func(w http.ResponseWriter, r *http.Request) { updateHandler(w, r, db) })
+	http.Handle("/", fs)
+
 	fmt.Println("Server active on port 8080")
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }

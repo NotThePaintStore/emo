@@ -92,7 +92,7 @@
         })
         boxes = document.getElementsByClassName("checkbox");
         for (let i = 0; i < boxes.length; i++) {
-          console.log(boxes[i].id);
+          //console.log(boxes[i].id);
           boxes[i].addEventListener("click", formText);
         };
         document.getElementById("reset").addEventListener("click", function() {
@@ -124,7 +124,7 @@
         var i = newList[d];
         comments.forEach(comment => {
           if (i.id == comment.ID && comment.Priority == c) {
-            console.log("Found " + comment.ID);
+            //console.log("Found " + comment.ID);
             y = y + "\n\n" + comment.Text;
           }
         })
