@@ -124,7 +124,7 @@ func GetComment(db *sql.DB, commentID string) (*Comment, error) {
 	sl := strings.Split(strings.Trim(s, "()"), "|")
 	res.Priority, _ = strconv.Atoi(sl[2])
 	res.Label = strings.Trim(sl[1], `"`)
-	res.ID = strings.Trim(sl[0], `"`)
+	res.ID = sl[0]
 	res.Text = strings.Trim(sl[3], `"`)
 	res.Category = strings.Trim(sl[4], `"`)
 	res.Active, _ = strconv.ParseBool(sl[5])
@@ -170,7 +170,8 @@ func GetAllActiveComments(db *sql.DB) ([]Comment, error) {
 	for results.Next() {
 		var row string
 		if err := results.Scan(&row); err != nil {
-			return nil, err
+			log.Println(err)
+			continue
 		}
 		rows = append(rows, row)
 	}
@@ -182,7 +183,7 @@ func GetAllActiveComments(db *sql.DB) ([]Comment, error) {
 		sl := strings.Split(strings.Trim(rows[i], "()"), "|")
 		res.Priority, _ = strconv.Atoi(sl[2])
 		res.Label = strings.Trim(sl[1], `"`)
-		res.ID = strings.Trim(sl[0], `"`)
+		res.ID = sl[0]
 		res.Text = strings.Trim(sl[3], `"`)
 		res.Category = strings.Trim(sl[4], `"`)
 		res.Active, _ = strconv.ParseBool(sl[5])
@@ -212,7 +213,8 @@ func GetAllComments(db *sql.DB) ([]Comment, error) {
 	for results.Next() {
 		var row string
 		if err := results.Scan(&row); err != nil {
-			return nil, err
+			log.Println(err)
+			continue
 		}
 		rows = append(rows, row)
 	}
@@ -224,7 +226,7 @@ func GetAllComments(db *sql.DB) ([]Comment, error) {
 		sl := strings.Split(strings.Trim(rows[i], "()"), "|")
 		res.Priority, _ = strconv.Atoi(sl[2])
 		res.Label = strings.Trim(sl[1], `"`)
-		res.ID = strings.Trim(sl[0], `"`)
+		res.ID = sl[0]
 		res.Text = strings.Trim(sl[3], `"`)
 		res.Category = strings.Trim(sl[4], `"`)
 		res.Active, _ = strconv.ParseBool(sl[5])
