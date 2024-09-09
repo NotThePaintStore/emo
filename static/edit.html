@@ -55,6 +55,7 @@
                 <option value="program">Program</option>
                 <option value="outdoor">Outdoor</option>
                 <option value="classroom">Classroom</option>
+                <option value="schwab">Schwab</option>
               </select>
             </div>
           </div>
@@ -150,7 +151,7 @@
           opt.value = comment.ID;
           opt.id = comment.ID;
           opt.classList.add("cmt");
-          opt.innerHTML = comment.Label;
+          opt.innerHTML = comment.Label + " [" + comment.Category + "]";
           opt.onclick = function(){getComment(comment.ID)};
           list.appendChild(opt);
         })

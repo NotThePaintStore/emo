@@ -26,7 +26,7 @@
   </nav>
   <div id="target" class="container my-5">
     <form id="myForm">
-      <div class="d-flex">
+      <div class="d-flex flex-wrap">
         <div class="flex-fill">
           <h3>Facility Comments</h3>
           <ul id="facility_comments"></ul>
@@ -40,6 +40,8 @@
           <ul id="outdoor_comments"></ul>
           <h3>Classroom Comments</h3>
           <ul id="classroom_comments"></ul>
+          <h3>Schwab Comments</h3>
+          <ul id="schwab_comments"></ul>
         </div>
       </div>
       <div class="d-flex justify-content-center">
@@ -74,6 +76,8 @@
             location = document.getElementById("outdoor_comments");
           } else if (comment.Category === "classroom") {
             location = document.getElementById("classroom_comments");
+          } else if (comment.Category === "schwab") {
+            location = document.getElementById("schwab_comments");
           }
           l = document.createElement("li");
           item = document.createElement("input");
@@ -117,6 +121,9 @@
       }
       if (i.checked && i.id == "classroom_comment") {
         y = "As the authorized agent of the above sponsor, you agree to abide by the policies of the Academic Space and all applicable State and University laws and regulations.";
+      }
+      if (i.checked && i.parentElement.parentElement.id == "schwab_comments") {
+        y = "As the authorized agent of the above sponsor, you agree to abide by the policies of Schwab Auditorium and all applicable State and University laws, policies and regulations. Any charges incurred related to this event are the responsibility of the sponsoring organization."
       }
     } 
     for (let c = 1; c < 11; c++) {

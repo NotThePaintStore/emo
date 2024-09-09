@@ -8,7 +8,7 @@ Projects relating to the HUB Event Management Office
 3. General Facility Notes
 4. Food Memo
 5. Venue-Specific Notes
-6. 
+6. Event-Specific Notes
 7. General Program Notes
 8. Classroom Policy
 9. RSO Payment Policy
